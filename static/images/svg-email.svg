@@ -1,0 +1,37 @@
+
+  <defs xmlns="http://www.w3.org/2000/svg" id="defs1309"/>
+  <sodipodi:namedview xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" id="base" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:pageopacity="0.0" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" inkscape:pageshadow="2" inkscape:zoom="15.1875" inkscape:cx="24" inkscape:cy="24" inkscape:current-layer="layer1" showgrid="true" inkscape:grid-bbox="true" inkscape:document-units="px" inkscape:window-width="1270" inkscape:window-height="944" inkscape:window-x="0" inkscape:window-y="26"/>
+  <metadata xmlns="http://www.w3.org/2000/svg" id="metadata1312">
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <cc:Work xmlns:cc="http://web.resource.org/cc/" rdf:about="">
+        <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">image/svg+xml</dc:format>
+        <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Email unread</dc:title>
+        <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">
+          <cc:Agent>
+            <dc:title>Luca Ferretti</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">
+          <rdf:Bag>
+            <rdf:li>unread email message</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/LGPL/2.1/"/>
+      </cc:Work>
+      <cc:License xmlns:cc="http://web.resource.org/cc/" rdf:about="http://creativecommons.org/licenses/LGPL/2.1/">
+        <cc:permits rdf:resource="http://web.resource.org/cc/Reproduction"/>
+        <cc:permits rdf:resource="http://web.resource.org/cc/Distribution"/>
+        <cc:requires rdf:resource="http://web.resource.org/cc/Notice"/>
+        <cc:permits rdf:resource="http://web.resource.org/cc/DerivativeWorks"/>
+        <cc:requires rdf:resource="http://web.resource.org/cc/ShareAlike"/>
+        <cc:requires rdf:resource="http://web.resource.org/cc/SourceCode"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g xmlns="http://www.w3.org/2000/svg" id="layer1" inkscape:label="Layer 1" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" inkscape:groupmode="layer">
+    <rect ry="3.9649484" rx="3.9631047" y="9" x="5" height="30" width="38" id="rect4006" style="fill:white;fill-opacity:1;fill-rule:evenodd;stroke:white;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"/>
+    <rect style="fill:black;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" id="rect2248" width="38" height="30" x="5" y="9" rx="4.0291295" ry="3.9649487"/>
+    <rect style="fill:white;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" id="rect3123" width="30" height="22" x="9" y="13" rx="0" ry="0"/>
+    <path style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:black;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" d="M 8,13.174564 L 22,27 C 23.124807,28.198901 23.884336,28.18857 25.046312,27.033012 L 40.077307,12.820449" id="path4000" sodipodi:nodetypes="cccc" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"/>
+  </g>
