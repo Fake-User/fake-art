@@ -32,6 +32,10 @@ a{
 .shadow{
     filter: drop-shadow(0 0 2vh #000);
 }
+.highlight:hover{
+    filter: drop-shadow(0 0 1vh #fffa);
+    animation-duration: 0s;
+}
 
 /* ------ HEADER ------ */
 .header{
@@ -51,11 +55,13 @@ a{
         height: 5vh;
         width: auto;
         padding: 2vh 0;
+        animation-duration: 0.5s;
     }
     .icon{
         height: 4vh;
         width: auto;
         padding: 2.5vh 0;
+        animation-duration: 0.5s;
     }
 
 /* ------ LANDING ------ */
