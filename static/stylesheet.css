@@ -85,6 +85,7 @@ a{
         display: grid;
         align-items: center;
         vertical-align: middle;
+        /* mix-blend-mode: difference; */
     }
 
 /* ------ PROJECTS ------ */
