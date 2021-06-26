@@ -86,7 +86,8 @@ a{
         display: grid;
         align-items: center;
         vertical-align: middle;
-        /* mix-blend-mode: difference; */
+        color: #fff;
+        mix-blend-mode: difference;
     }
 
 /* ------ PROJECTS ------ */
@@ -128,6 +129,7 @@ a{
                 z-index: 8;
                 font-family: akira-outline;
                 font-size: 220%;
+                mix-blend-mode: exclusion;
             }
                 .project-text:hover{
                     font-family: akira-super-bold;
@@ -135,7 +137,8 @@ a{
 
 /* ------ FOOTER ------ */
 .footer{
-    width: 100vw;
+    width: 100%;
+    height: 100%;
     background-image: url("https://slavecdn.sfo3.digitaloceanspaces.com/Images/paper.jpg");
     background-attachment: fixed;
     background-position: center;
