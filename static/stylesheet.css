@@ -145,12 +145,17 @@ a{
     grid-gap: 4vh;
 }
     .photo{
+        grid-area: 1 / 2;
         margin: auto;
         height: 9vh;
         width: 9vh;
         border-radius: 100%;
     }
+    .about{
+        grid-area: 2 / 2;
+    }
     .info{
+        grid-area: 3 / 2;
         color: #888;
         font-size: 1.3vh;
         text-align: center;
