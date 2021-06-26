@@ -103,6 +103,7 @@ a{
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(30vh, 1fr));
         gap: 4vh;
+        bo
     }
         .project{
             display: grid;
@@ -140,7 +141,7 @@ a{
     padding: 4vh 0;
     text-align: justify;
     display: grid;
-    grid-template-columns: 1fr minmax(0%, 70vh) 1fr;
+    grid-template-columns: 1fr minmax(0%, 71.096vh) 1fr;
     grid-template-rows: 9vh auto auto;
     grid-gap: 4vh;
 }
