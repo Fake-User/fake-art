@@ -15,7 +15,6 @@ h1{
 *{
     margin: 0;
     padding: 0;
-    color: #fff;
 }
 body{
     background-color: #000;
@@ -23,6 +22,7 @@ body{
     font-family: helmet-regular;
     letter-spacing: 0.1em;
     line-height: 1.5em;
+    color: #fff;
 }
 a{
     transition-duration: 0.5s;
@@ -78,6 +78,7 @@ a{
         left: 0;
         z-index: -9;
     }
+
     .landing-text{
         box-sizing: border-box;
         width: 100%;
