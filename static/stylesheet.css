@@ -98,8 +98,11 @@ h1{
     background-color: #1a1a1a;
     padding: 4vh;
     filter: drop-shadow(0 0 2vh #000);
+    display: grid;
+    grid-template-columns: auto min(100%, 180vh) auto;
 }
     .project-grid{
+        grid-area: 1 / 2;
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(30vh, 1fr));
         gap: 4vh;
