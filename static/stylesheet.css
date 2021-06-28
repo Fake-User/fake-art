@@ -97,7 +97,7 @@ h1{
 .projects{
     box-sizing: border-box;
     width: 100vw;
-    background-color: #ff1a1a;
+    background-color: #1aff1a;
     padding: 4vh;
     filter: drop-shadow(0 0 2vh #000);
     display: grid;
@@ -140,8 +140,10 @@ h1{
     height: 100%;
     background-image: url("https://slavecdn.sfo3.digitaloceanspaces.com/Images/paper.jpg");
 
-    background-attachment: fixed;
-    background-attachment: -webkit-scroll !important;
+    background-attachment: -moz-fixed;
+    background-attachment: -o-fixed;
+    background-attachment: -ms-fixed;
+    background-attachment: -webkit-scroll;
     background-position: center;
     background-size: cover;
     padding: 4vh 0;
