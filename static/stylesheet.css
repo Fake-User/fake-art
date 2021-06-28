@@ -139,9 +139,10 @@ h1{
     width: 100%;
     height: 100%;
     background-image: url("https://slavecdn.sfo3.digitaloceanspaces.com/Images/paper.jpg");
-    background-attachment: fixed !important;
+    background-attachment: fixed;
+    -webkit-background-attachment: scroll;
     background-position: center;
-    background-size: cover !important;
+    background-size: cover;
     padding: 4vh 0;
     text-align: justify;
     display: grid;
