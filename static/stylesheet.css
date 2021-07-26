@@ -54,7 +54,7 @@ h1{
     height: 9vh;
     background-color: #000a;
     display: grid;
-    grid-template-columns: 0 auto 1fr auto auto 0;
+    grid-template-columns: 0 auto 1fr auto auto auto 0;
     gap: 2.5vh;
     z-index: 9;
 }
