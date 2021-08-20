@@ -1,5 +1,5 @@
 /* ------ GLOBAL ------ */
-@font-face {font-family: akira-super-bold; src: url("./fonts/Akira Super Bold.otf");}
+@font-face {font-family: akira-super-bold; src: url("./fonts/Coulson.otf");}
     .akira-super-bold{font-family: akira-super-bold}
 @font-face {font-family: akira-outline; src: url("./fonts/Akira Outline.otf");}
     .akira-outline{font-family: akira-outline}
@@ -27,7 +27,7 @@ a{
 }
 h1{
     font-family: akira-super-bold;
-    font-size: calc(4vh + 4vw);
+    font-size: calc(4vh + 5vw);
     text-align: center;
     line-height: calc(4vh + 4vw);
 }
@@ -133,7 +133,7 @@ h1{
                 grid-area: 1 / 1;
                 font-family: akira-super-bold;
                 mix-blend-mode: difference;
-                font-size: 220%;
+                font-size: 280%;
             }
                 .project-text-top{
                     mix-blend-mode: saturation;
