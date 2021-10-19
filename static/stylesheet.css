@@ -38,8 +38,8 @@ h1{
 }
 .profile{
     margin: auto;
-    height: 9vh;
-    width: 9vh;
+    height: 12vh;
+    width: 12vh;
     border-radius: 100%;
 }
 
@@ -126,21 +126,6 @@ h1{
                 grid-area: 1 / 1;
                 width: 100%;
                 height: auto;
-            }
-            .project-text{
-                display: block;
-                grid-area: 1 / 1;
-                font-family: akira-super-bold;
-                mix-blend-mode: difference;
-                font-size: 280%;
-            }
-                .project-text-top{
-                    mix-blend-mode: saturation;
-                }
-            .project-info{
-                padding: 2vh 2vh 0 2vh;
-                display: grid;
-                grid-gap: 1vh;
             }
 
 /* ------ FOOTER ------ */
