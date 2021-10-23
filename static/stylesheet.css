@@ -1,6 +1,6 @@
 /* ------ GLOBAL ------ */
-@font-face {font-family: akira-super-bold; src: url("./fonts/Coulson.otf");}
-    .akira-super-bold{font-family: akira-super-bold}
+@font-face {font-family: coulson; src: url("./fonts/Coulson.otf");}
+    .coulson{font-family: coulson}
 @font-face {font-family: helmet-regular; src: url("./fonts/Helmet-Regular.ttf");}
     .helmet-regular{font-family: helmet-regular}
 html{
@@ -24,7 +24,7 @@ a{
     text-decoration: none;
 }
 h1{
-    font-family: akira-super-bold;
+    font-family: coulson;
     font-size: calc(4vh + 5vw);
     text-align: center;
     line-height: calc(4vh + 4vw);
