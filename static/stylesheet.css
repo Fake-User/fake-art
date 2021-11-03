@@ -48,7 +48,7 @@ h1{
     position: fixed;
     top: 0;
     left: 0;
-    width: 100vw;
+    width: 100%;
     height: 9vh;
     background-color: #000a;
     display: grid;
@@ -71,7 +71,7 @@ h1{
 
 /* ------ LANDING ------ */
 .landing{
-    width: 100vw;
+    width: 100%;
     height: 100vh;
 }
     .landing-video-wrapper{
@@ -101,7 +101,7 @@ h1{
 /* ------ PROJECTS ------ */
 .projects{
     box-sizing: border-box;
-    width: 100vw;
+    width: 100%;
     background-color: #1a1a1a;
     padding: 4vh;
     filter: drop-shadow(0 0 2vh #000);
@@ -115,19 +115,11 @@ h1{
         gap: 4vh;
     }
         .project{
-            display: grid;
-            grid-template: auto auto / auto;
-            justify-items: center;
-            align-items: center;
-            text-align: center;
             width: 100%;
+            aspect-ratio: 1 / 1;
             filter: drop-shadow(0 0 1vh #000);
         }
-            .project-cover{
-                grid-area: 1 / 1;
-                width: 100%;
-                height: auto;
-            }
+
 
 /* ------ FOOTER ------ */
 .footer{
