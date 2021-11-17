@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FAKE USER</title>
+    <link rel="icon" href="./static/images/svg-lettermark.svg">
+    <link rel="mask-icon" href="./static/images/svg-lettermark-safari.svg" color="#000">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .landing{
+            width: 100vw;
+            height: 100vh;
+        }
+        .landing-video{
+            position: fixed;
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+            z-index: -9;
+        }
+        .center{
+            position: absolute;
+            z-index: 10;
+            width: 100%;
+            height: 100%;
+            display: grid;
+            grid-template-columns: 1fr 40vh 1fr;
+            grid-template-columns: 1fr auto 1fr;
+
+        }
+
+        }
+    </style>
+</head>
+<body>
+
+    <div class="landing">
+        <video class="landing-video" autoplay muted loop playsinline  poster="/static/images/poster-landing.jpg">>
+            <source src="/static/videos/landing.mp4" type="video/mp4">
+        </video>
+        <div class="center">
+            <div></div><div></div><div></div>
+            <div></div><audio class="music" controls>
+                <source src="Lindie x Russell - ID.mp3" type="audio/mpeg">
+            </audio><div></div>
+            <div></div><div></div><div></div>
+        </div>
+    </div>
+
+</body>
+</html>

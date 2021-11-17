@@ -36,12 +36,6 @@ h1{
     filter: drop-shadow(0 0 1vh #fffa);
     animation-duration: 0s;
 }
-.profile{
-    margin: auto;
-    height: 12vh;
-    width: 12vh;
-    border-radius: 100%;
-}
 
 /* ------ HEADER ------ */
 .header{
@@ -143,6 +137,10 @@ h1{
     }
     .me{
         grid-area: 1 / 2;
+        margin: auto;
+        height: 12vh;
+        width: 12vh;
+        border-radius: 100%;
     }
     .about{
         grid-area: 2 / 2;
