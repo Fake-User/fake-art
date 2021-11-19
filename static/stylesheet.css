@@ -1,6 +1,6 @@
 /* ------ GLOBAL ------ */
-@font-face {font-family: coulson; src: url("./fonts/Coulson.otf");}
-    .coulson{font-family: coulson}
+@font-face {font-family: tokarev; src: url("./fonts/TokarevGrunged.ttf");}
+    .tokarev{font-family: tokarev}
 @font-face {font-family: helmet-regular; src: url("./fonts/Helmet-Regular.ttf");}
     .helmet-regular{font-family: helmet-regular}
 html{
@@ -24,10 +24,10 @@ a{
     text-decoration: none;
 }
 h1{
-    font-family: coulson;
-    font-size: calc(4vh + 5vw);
+    font-family: tokarev;
+    font-size: calc(4vh + 7vw);
     text-align: center;
-    line-height: calc(4vh + 4vw);
+    line-height: calc(4vh + 7vw);
 }
 .shadow{
     filter: drop-shadow(0 0 2vh #000);
