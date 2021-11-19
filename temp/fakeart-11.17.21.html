@@ -14,11 +14,18 @@
         .temp-video-wrapper{
             width: 100vw;
             height: 100vh;
+            position: relative;
         }
             .temp-video{
                 width: 100%;
                 height: 100%;
                 object-fit: cover;
+            }
+            .temp-scrolldown{
+                position: absolute;
+                top: 90vh;
+                width: 100%;
+                text-align: center;
             }
         .temp-title{
             grid-area: 1 / 2;
@@ -67,6 +74,7 @@
         <video class="temp-video" autoplay muted loop playsinline poster="poster-wuha.jpg">
             <source src="somedieyoung-wuha.mp4" type="video/mp4">
         </video>
+        <div class="temp-scrolldown"><img class="icon highlight" style="transform: rotate(180deg);" src="scrolldown.svg"></div>
     </div>
 
     <div class="projects shadow" style="padding-top:1%;">
