@@ -1,7 +1,7 @@
 /* ------ GLOBAL ------ */
-@font-face {font-family: tokarev; src: url("./fonts/Tokarev.ttf");}
+@font-face {font-family: tokarev; src: url("./fonts/tokarev.ttf");}
     .tokarev{font-family: tokarev}
-@font-face {font-family: helmet-regular; src: url("./fonts/Helmet-Regular.ttf");}
+@font-face {font-family: helmet-regular; src: url("./fonts/cq-mono.otf");}
     .helmet-regular{font-family: helmet-regular}
 html{
     scroll-behavior: smooth;
@@ -14,7 +14,7 @@ body{
     background-color: #000;
     font-size: 2vh;
     font-family: helmet-regular;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.09em;
     line-height: 1.5em;
     color: #fff;
 }
@@ -144,10 +144,12 @@ h1{
     }
     .about{
         grid-area: 2 / 2;
+        mix-blend-mode: difference;
     }
     .info{
         grid-area: 3 / 2;
         color: #888;
-        font-size: 1.3vh;
+        font-size: 1.5vh;
         text-align: center;
+        mix-blend-mode: difference;
     }
