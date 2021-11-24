@@ -2,7 +2,7 @@
 @font-face {font-family: tokarev; src: url("./fonts/tokarev.ttf");}
     .tokarev{font-family: tokarev}
 @font-face {font-family: cq-mono; src: url("./fonts/cq-mono.otf");}
-    .helmet-regular{font-family: cq-mono}
+    .cq-mono{font-family: cq-mono}
 html{
     scroll-behavior: smooth;
 }
@@ -13,7 +13,7 @@ html{
 body{
     background-color: #000;
     font-size: 2vh;
-    font-family: helmet-regular;
+    font-family: cq-mono;
     letter-spacing: 0.09em;
     line-height: 1.5em;
     color: #fff;
