@@ -1,8 +1,8 @@
 /* ------ GLOBAL ------ */
 @font-face {font-family: tokarev; src: url("./fonts/tokarev.ttf");}
     .tokarev{font-family: tokarev}
-@font-face {font-family: helmet-regular; src: url("./fonts/cq-mono.otf");}
-    .helmet-regular{font-family: helmet-regular}
+@font-face {font-family: cq-mono; src: url("./fonts/cq-mono.otf");}
+    .helmet-regular{font-family: cq-mono}
 html{
     scroll-behavior: smooth;
 }
