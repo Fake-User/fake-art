@@ -2,30 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta property="og:title" content="Glass Cage">
-    <meta property="og:url" content="https://fakeart.online/temp/fakeart-11.17.21">
-    <meta property="og:image" content="poster.jpg">
+    <meta property="og:title" content="Fake Art - Glass Cage">
+    <meta property="og:url" content="https://fakeart.online/temp/mhelt/mhelt">
+    <meta property="og:image" content="/static/images/opengraph.jpg">
     <meta name="theme-color" content="#000">
-    <title>Glass Cage</title>
+    <title>GLASS CAGE</title>
     <link href="/static/stylesheet.css" type="text/css" rel="stylesheet">
+    <link rel="icon" href="/static/images/svg-lettermark.svg">
+    <link rel="mask-icon" href="/static/images/svg-lettermark-safari.svg" color="#000">
     <style>
-        .temp-video-wrapper{
-            width: 100vw;
-            height: 100vh;
-            position: relative;
-        }
-            .temp-video{
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
-            }
-        .temp-title{
-            grid-area: 1 / 2;
-            font-size: calc(2vh + 3vw);
-            text-align: center;
-            line-height: calc(2vh + 2vw);
-            padding-bottom: 1.5%;
-        }
         .temp-project-grid{
             grid-area: 2 / 2;
             display: grid;
@@ -56,13 +41,16 @@
         </a>
     </div>
 
-    <!-- Wuha -->
-    <div class="temp-video-wrapper">
-        <video class="temp-video" autoplay muted loop playsinline poster="poster-wuha.jpg">
-            <source src="glasscage-landing.mp4" type="video/mp4">
-        </video>
+    <!-- LANDING -->
+    <div class="landing">
+        <div class="landing-video-wrapper"><!--fix for safari video position: fixed; bug-->
+            <video class="landing-video" autoplay muted loop playsinline poster="./static/images/poster.jpg">
+                <source src="./glasscage-landing.mp4" type="video/mp4">
+            </video>
+        </div>
     </div>
 
+    <!-- SIZZEL & LOGO -->
     <div class="projects shadow">
         <div class="temp-project-grid">
             <video class="temp-project-1" controls playsinline poster="poster.jpg">
@@ -76,7 +64,7 @@
     <div class="footer ios">
         <img class="me" src="icon.png">
         <div class="about">
-            Glass Cage provides music to make a statement. Born out of an inner drive to break artistic barriers,  Glass Cage offers a taste of rebellion and spunk. It’s not just music, it’s culture. With deep ties to the LA underground music scene, Glass Cage is able to provide authentic and fresh music that always makes a strong impression. Glass Cage is about breaking out of line and going against the grain; doing something different, doing something irreverent. It’s loud and in your face; ready to breakdown barriers, turn the wheel, stir the pot. You can see your potential in front of you; are you ready to break out of your glass cage?
+            Glass Cage provides music to make a statement. It’s not just music, it’s culture. With deep ties to the LA underground music scene, Glass Cage is able to provide authentic and fresh music that always makes a strong impression. Glass Cage is about breaking out of line and going against the grain; doing something different, doing something irreverent. You can see your potential in front of you; are you ready to break out of your glass cage?
         </div>
         <div class="info">
             Email: RussellBoswell@fakeart.online<br>
