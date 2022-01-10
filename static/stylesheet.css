@@ -1,6 +1,6 @@
 /* ------ GLOBAL ------ */
-@font-face {font-family: tokarev; src: url("./fonts/tokarev.ttf");}
-    .tokarev{font-family: tokarev}
+@font-face {font-family: too-many-cowboys; src: url("./fonts/too-many-cowboys.ttf");}
+    .too-many-cowboys{font-family: too-many-cowboys}
 @font-face {font-family: cq-mono; src: url("./fonts/cq-mono.otf");}
     .cq-mono{font-family: cq-mono}
 html{
@@ -24,10 +24,10 @@ a{
     text-decoration: none;
 }
 h1{
-    font-family: tokarev;
+    font-family: too-many-cowboys;
     font-size: calc(4vh + 7vw);
     text-align: center;
-    line-height: calc(4vh + 7vw);
+    line-height: calc(4.1vh + 7vw);
 }
 .shadow{
     filter: drop-shadow(0 0 2vh #000);
