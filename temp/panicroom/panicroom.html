@@ -11,10 +11,30 @@
     <link rel="icon" href="/static/images/svg-lettermark.svg">
     <link rel="mask-icon" href="/static/images/svg-lettermark-safari.svg" color="#000">
     <style>
-        .temp-text{
-            font-size: calc(0.5vh + 1.2vw);
-            line-height: 1.6;
+        @font-face {font-family: imperator; src: url("Avenue X.otf");}
+        .landing-video{
+            animation: colorshit 30s linear infinite;
         }
+        @keyframes colorshit{
+				from {
+					filter: hue-rotate(0deg) saturate(2);
+				}
+
+				to {
+					filter: hue-rotate(359deg) saturate(2);
+				}
+        }
+
+        .temp-text{
+            font-size: calc(0.3vh + 1vw);
+            letter-spacing: 0.02em;
+            line-height: 1.6;
+            font-family: imperator;
+            background-position: center;
+            background-size: cover;
+            background-image: url("papap.jpg");
+        }
+
         .icon-grid{
             grid-area: 1 / 2;
             display: grid;
@@ -22,11 +42,11 @@
             gap: 2vh;
         }
             .mock{
-                filter: drop-shadow(0 0 0.5vh #888);
+                filter: drop-shadow(0 0 0.5vh #000);
                 aspect-ratio: 43 / 9;
                 border-style: solid;
                 border-width: 0.3vh;
-                border-color: #eee2;
+                border-color: #4442;
                 border-radius: 2vh;
             }
     </style>
@@ -57,22 +77,23 @@
         </div>
     </div>
     <div class="landing-text-grid">
-        <div class="landing-text">
-            <h1 style="color:#80f;">PANICROOM</h1>
+        <div class="landing-text" style="mix-blend-mode: difference;">
+            <img src="master.png" style="width:100%; filter: invert(0%)">
+            <img src="master.png" style="width:100%; filter: invert(50%)">
+            <img src="master.png" style="width:100%; filter: invert(100%)">
         </div>
     </div>
 
     <!-- BRAND DESCRIPTION -->
-    <div class="projects shadow temp-text" style="grid-template-columns: 1fr minmax(0%, 120vh) 1fr;">
-                <div><!--spacer--></div>
-                <img src="logos/logo-1.png" style="width:100%;">
-                <div><!--spacer--></div>
-                <div><!--spacer--></div>
-                <div>
-                    <strong>PANICROOM</strong> tells a story of duality & harship with the sounds of nue rave in an ethereal neo-wastland. The project tackles issues of depression, anxiety, & anger; forces that tear the psyche into opposing halfs. One is neutral, desperatly trying to hold on. The other is a twin shadow, pulling everything into darkness.<br><br>This logo was created for the ominous modern vision of PANICROOM. Bold Strokes and extreme width contrast make a futuristic & cutting edge impact. Mirrored shearing embodies a neutral psyche with a twin shadow. Most strikingly, extreme distortions are scars from hardship in an ethereal neo-wastland.<br><br>
-                </div>
-                <div><!--spacer--></div>
-
+    <div class="projects shadow temp-text" style="grid-template-columns: 1fr minmax(0%, 110vh) 1fr;">
+        <div><!--spacer--></div>
+        <img src="logos/logo-1.png" style="width:100%; filter: drop-shadow(0 0 2vh #000)">
+        <div><!--spacer--></div>
+        <div><!--spacer--></div>
+        <div>
+            <strong>PANICROOM</strong> tells a story of duality & hardship with the sounds of nue rave in an ethereal neo-wastland. The project tackles issues of depression, anxiety, & anger; forces that tear the psyche into opposing halfs. One half is neutral, desperatly trying to hold on. The other is a twin shadow, pulling everything into darkness.<br><br>This logo was created for the ominous modern vision of PANICROOM. Bold strokes & extreme width veriations make a futuristic & cutting edge impact. Mirrored shearing embodies the duality of a neutral psyche & its twin shadow. Most strikingly, extreme distortions invoke scars from hardship in an ethereal neo-wastland.<br><br>
+        </div>
+        <div><!--spacer--></div>
     </div>
 
 
