@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta property="og:title" content="Fake Art - Panic Room">
+    <meta property="og:url" content="https://fakeart.online/temp/panicroom/panicroom">
+    <meta property="og:image" content="landing.jpg">
+    <meta name="theme-color" content="#000">
+    <title>PANICROOM</title>
+    <link href="/static/stylesheet.css" type="text/css" rel="stylesheet">
+    <link rel="icon" href="/static/images/svg-lettermark.svg">
+    <link rel="mask-icon" href="/static/images/svg-lettermark-safari.svg" color="#000">
+    <style>
+        .temp-text{
+            font-size: calc(0.5vh + 1.2vw);
+            line-height: 1.6;
+        }
+        .icon-grid{
+            grid-area: 1 / 2;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(50vh, 1fr));
+            gap: 2vh;
+        }
+            .mock{
+                filter: drop-shadow(0 0 0.5vh #888);
+                aspect-ratio: 43 / 9;
+                border-style: solid;
+                border-width: 0.3vh;
+                border-color: #eee2;
+                border-radius: 2vh;
+            }
+    </style>
+</head>
+<body>
+
+    <!-- HEADER -->
+    <div class="header shadow" style="background-color:#0f0f0f;">
+        <div><!--Spacer--></div>
+        <a href="/index.html">
+            <img class="logo highlight" src="/static/images/svg-lettermark.svg">
+        </a>
+        <div><!--Spacer--></div>
+        <a href="mailto:russellboswell@fakeart.online" target="_blank">
+            <img class="icon highlight" src="/static/images/svg-email.svg">
+        </a>
+        <a href="https://github.com/Fake-User" target="_blank">
+            <img class="icon highlight" src="/static/images/svg-github.svg">
+        </a>
+    </div>
+
+    <!-- LANDING -->
+    <div class="landing">
+        <div class="landing-video-wrapper"><!--fix for safari video position: fixed; bug-->
+            <video class="landing-video" autoplay muted loop playsinline poster="/static/images/poster-landing.jpg">
+                <source src="landing-panicroom.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+    <div class="landing-text-grid">
+        <div class="landing-text">
+            <h1 style="color:#80f;">PANICROOM</h1>
+        </div>
+    </div>
+
+    <!-- BRAND DESCRIPTION -->
+    <div class="projects shadow temp-text" style="grid-template-columns: 1fr minmax(0%, 120vh) 1fr;">
+                <div><!--spacer--></div>
+                <img src="logos/logo-1.png" style="width:100%;">
+                <div><!--spacer--></div>
+                <div><!--spacer--></div>
+                <div>
+                    <strong>PANICROOM</strong> tells a story of duality & harship with the sounds of nue rave in an ethereal neo-wastland. The project tackles issues of depression, anxiety, & anger; forces that tear the psyche into opposing halfs. One is neutral, desperatly trying to hold on. The other is a twin shadow, pulling everything into darkness.<br><br>This logo was created for the ominous modern vision of PANICROOM. Bold Strokes and extreme width contrast make a futuristic & cutting edge impact. Mirrored shearing embodies a neutral psyche with a twin shadow. Most strikingly, extreme distortions are scars from hardship in an ethereal neo-wastland.<br><br>
+                </div>
+                <div><!--spacer--></div>
+
+    </div>
+
+
+
+    <!-- PROJECTS -->
+    <div class="projects" style="background-color:#0f0f0f; filter: none; grid-template-columns: auto min(100%, 130vh) auto;">
+        <div class="icon-grid">
+            <img class="project mock" src="logos/logo-1.png">
+            <img class="project mock" src="logos/logo-2.png">
+            <img class="project mock" src="logos/logo-3.png">
+            <img class="project mock" src="logos/logo-4.png">
+            <img class="project mock" src="logos/logo-5.png">
+            <img class="project mock" src="logos/logo-6.png">
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer ios">
+        <img class="me" src="/static/images/profile-fakeart.png">
+        <div class="about">
+            Hey, my name is Russell Boswell & I'm a 3D motion graphics artist based in Los Angeles California. I make artwork for music people, including looping animations, album covers, and branding assets. If you're interested in a commission, feel free to reach out by email.
+        </div>
+        <div class="info">
+            Email: RussellBoswell@fakeart.online<br>
+            <span class="too-many-cowboys">=&nbspFAKE&nbspART&nbsp=</span>
+        </div>
+    </div>
+
+</body>
+</html>
