@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta property="og:title" content="Fake Art - Panic Room">
     <meta property="og:url" content="https://fakeart.online/temp/panicroom/panicroom">
-    <meta property="og:image" content="landing.jpg">
+    <meta property="og:image" content="landing-panicroom.jpg">
     <meta name="theme-color" content="#000">
     <title>PANICROOM</title>
     <link href="/static/stylesheet.css" type="text/css" rel="stylesheet">
@@ -12,18 +12,19 @@
     <link rel="mask-icon" href="/static/images/svg-lettermark-safari.svg" color="#000">
     <style>
         @font-face {font-family: imperator; src: url("Avenue X.otf");}
+
         .landing-video{
             animation: colorshit 30s linear infinite;
         }
-        @keyframes colorshit{
-				from {
-					filter: hue-rotate(0deg) saturate(2);
-				}
+            @keyframes colorshit{
+    				from {
+    					filter: hue-rotate(0deg) saturate(2);
+    				}
 
-				to {
-					filter: hue-rotate(359deg) saturate(2);
-				}
-        }
+    				to {
+    					filter: hue-rotate(359deg) saturate(2);
+    				}
+            }
 
         .temp-text{
             font-size: calc(0.3vh + 1vw);
@@ -32,23 +33,25 @@
             font-family: imperator;
             background-position: center;
             background-size: cover;
-            background-image: url("papap.jpg");
+            background-image: url("pap.jpg");
         }
 
-        .icon-grid{
-            grid-area: 1 / 2;
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(50vh, 1fr));
-            gap: 2vh;
+        .papap{
+            background-position: center;
+            background-size: cover;
+            background-image: url("papap.jpg");
         }
-            .mock{
-                filter: drop-shadow(0 0 0.5vh #000);
-                aspect-ratio: 43 / 9;
-                border-style: solid;
-                border-width: 0.3vh;
-                border-color: #4442;
-                border-radius: 2vh;
+            .icon-grid{
+                grid-area: 1 / 2;
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(50vh, 1fr));
+                gap: 2vh;
+
             }
+                .mock{
+                    filter: drop-shadow(0 0 0.5vh #000);
+                    aspect-ratio: 43 / 9;
+                }
     </style>
 </head>
 <body>
@@ -71,16 +74,16 @@
     <!-- LANDING -->
     <div class="landing">
         <div class="landing-video-wrapper"><!--fix for safari video position: fixed; bug-->
-            <video class="landing-video" autoplay muted loop playsinline poster="/static/images/poster-landing.jpg">
+            <video class="landing-video" autoplay muted loop playsinline poster="poster-landing.jpg">
                 <source src="landing-panicroom.mp4" type="video/mp4">
             </video>
         </div>
     </div>
     <div class="landing-text-grid">
         <div class="landing-text" style="mix-blend-mode: difference;">
-            <img src="master.png" style="width:100%; filter: invert(0%)">
-            <img src="master.png" style="width:100%; filter: invert(50%)">
-            <img src="master.png" style="width:100%; filter: invert(100%)">
+            <img src="master.png" style="width:100%; filter: invert(5%)">
+            <img src="master.png" style="width:100%; filter: invert(40%)">
+            <img src="master.png" style="width:100%; filter: invert(80%)">
         </div>
     </div>
 
@@ -91,15 +94,13 @@
         <div><!--spacer--></div>
         <div><!--spacer--></div>
         <div>
-            <strong>PANICROOM</strong> tells a story of duality & hardship with the sounds of nue rave in an ethereal neo-wastland. The project tackles issues of depression, anxiety, & anger; forces that tear the psyche into opposing halfs. One half is neutral, desperatly trying to hold on. The other is a twin shadow, pulling everything into darkness.<br><br>This logo was created for the ominous modern vision of PANICROOM. Bold strokes & extreme width veriations make a futuristic & cutting edge impact. Mirrored shearing embodies the duality of a neutral psyche & its twin shadow. Most strikingly, extreme distortions invoke scars from hardship in an ethereal neo-wastland.<br><br>
+            <strong>PANICROOM</strong> tells a story of duality & hardship with the sounds of nue rave in an ethereal neo-wastland. The project tackles issues of depression, anxiety, & anger; forces that tear the psyche into opposing halfs. One half is neutral, desperatly trying to hold on. The other is a twin shadow, pulling everything into darkness.<br><br>This logo was created for the ominous modern vision of PANICROOM. Bold strokes & extreme width veriations make a futuristic & cutting edge impact. Mirrored shearing embodies the duality of a neutral psyche & its twin shadow. Most strikingly, extreme distortions envoke hysteria, distress, & panic.<br><br>
         </div>
         <div><!--spacer--></div>
     </div>
 
-
-
     <!-- PROJECTS -->
-    <div class="projects" style="background-color:#0f0f0f; filter: none; grid-template-columns: auto min(100%, 130vh) auto;">
+    <div class="projects papap" style="background-color:#0f0f0f; filter: none; grid-template-columns: auto min(100%, 130vh) auto;">
         <div class="icon-grid">
             <img class="project mock" src="logos/logo-1.png">
             <img class="project mock" src="logos/logo-2.png">
@@ -107,6 +108,12 @@
             <img class="project mock" src="logos/logo-4.png">
             <img class="project mock" src="logos/logo-5.png">
             <img class="project mock" src="logos/logo-6.png">
+            <img class="project mock" src="logos/logo-7.png">
+            <img class="project mock" src="logos/logo-8.png">
+            <img class="project mock" src="logos/logo-9.png">
+            <img class="project mock" src="logos/logo-10.png">
+            <img class="project mock" src="logos/logo-11.png">
+            <img class="project mock" src="logos/logo-12.png">
         </div>
     </div>
 
