@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta property="og:title" content="Fake Art - Hollowed Ghost">
+    <meta property="og:url" content="https://fakeart.online/temp/hollowedghost/hollowedghost">
+    <meta property="og:image" content="PUT SHIT HERE">
+    <meta name="theme-color" content="#000">
+    <title>Hollowed Ghost</title>
+    <link href="/static/stylesheet.css" type="text/css" rel="stylesheet">
+    <link rel="icon" href="/static/images/svg-lettermark.svg">
+    <link rel="mask-icon" href="/static/images/svg-lettermark-safari.svg" color="#000">
+    <style>
+        @font-face {font-family: akira; src: url("Akira.ttf");}
+
+        .pap{
+            background-position: center;
+            background-size: cover;
+            background-image: url("pap.jpg");
+            z-index: 10;
+        }
+
+        .papap{
+            background-position: center;
+            background-size: cover;
+            background-image: url("papap.jpg");
+        }
+        .temp-project-grid{
+            grid-area: 2 / 2;
+            display: grid;
+            grid-gap: 4vh;
+            grid-template-columns:144fr 256fr 81fr;
+        }
+
+    </style>
+</head>
+<body>
+
+
+
+    <!-- Landing -->
+    <!-- LANDING -->
+    <div class="landing">
+        <div class="landing-video-wrapper"><!--fix for safari video position: fixed; bug-->
+            <video class="landing-video" autoplay muted loop playsinline poster="./static/images/poster-landing.jpg">
+                <source src="landing-video-short.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+    <div class="landing-text-grid">
+        <div class="landing-text">
+            <h1 style="font-family: akira; font-size: calc(2vh + 6vw); line-height: calc(3vh + 4vw);">HOLLOWED<br>GHOST</h1>
+        </div>
+    </div>
+
+    <!-- Info -->
+    <div class="projects shadow papap" style="grid-template-columns: 1fr minmax(0%, 110vh) 1fr;">
+        <div><!--spacer--></div>
+        <div>
+            <br>I started the <strong>HOLLOWED GHOST - BROKEN HEART</strong> artwork by researching sakura flowers & found some inspiring documentaries on growing bonsai trees. Using a sakura bonsai tree as the focal point fit the project brief well, but came with some challenges.
+            <br><br>Bonsais are hyper manacured plants. As they grow, their branches are shaped into flowing curves, & their foliage is organized into tight clumps. I looked at many nature libraries & tree genoration tools, but none captured these traits of bonsai trees. Due to these shortcomings, I ended up making my own tooling with Blender's geometry nodes. The result: a procedural & artist friendly way to create authentic feeling bonsai trees. This tool makes creating varitions for other projects easier & more consistent.
+            <br><br>After incorporating the rest of the brief & some compositing, here is where the artwork is at. There is still some polishing left, & I can make adjustments if needed. To get a sense of how the artwork will look on different platforms, here it is adapted to 1x1, 16x9, & 9x16 aspect ratios.<br><br>
+        </div>
+        <div><!--spacer--></div>
+    </div>
+
+    <!-- Aspect Ratios -->
+    <div class="projects shadow pap">
+        <div class="temp-project-grid">
+            <img class="project" style="aspect-ratio: 1 / 1;" src="1x1.png">
+            <img class="project" style="aspect-ratio: 16 / 9;" src="16x9.png">
+            <img class="project" style="aspect-ratio: 9 / 16;" src="9x16v2.png">
+        </div>
+    </div>
+
+    <!-- Info -->
+    <div class="projects shadow papap" style="grid-template-columns: 1fr minmax(0%, 110vh) 1fr;">
+        <div><!--spacer--></div>
+        <div>
+            <br>I tried to strike a balance between autheticity & matching the Hollowed Ghost brand by using saturated red, pink, & purple colors. This ended up being my favorite palette, but here are some variations I felt could also work.<br><br>
+        </div>
+        <div><!--spacer--></div>
+    </div>
+
+    <!-- Colors -->
+    <div class="projects shadow pap">
+        <div class="project-grid">
+            <img class="project" style="filter: hue-rotate(240deg)" src="1x1.png">
+            <img class="project" src="1x1.png">
+            <img class="project" style="filter: hue-rotate(-50deg)" src="1x1.png">
+        </div>
+    </div>
+
+    <!-- Info -->
+    <div class="projects shadow papap" style="grid-template-columns: 1fr minmax(0%, 110vh) 1fr;">
+        <div><!--spacer--></div>
+        <div>
+            <br>One tweak I put up for debate was the rotation of the cover art. I showed a few people 3 variations & asked which they preferred. A small majority thought that "straight on" was the most impactful.<br><br>
+        </div>
+        <div><!--spacer--></div>
+    </div>
+
+    <!-- Angles -->
+    <div class="projects shadow pap">
+        <div class="project-grid">
+            <img class="project" src="1x1r.png">
+            <img class="project" src="1x1.png">
+            <img class="project" src="1x1l.png">
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer ios">
+        <img class="me" src="/static/images/profile-fakeart.png">
+        <div class="about">
+            Hey, my name is Russell Boswell & I'm a 3D motion graphics artist based in Los Angeles California. I make artwork for music people, including looping animations, album covers, and branding assets. If you're interested in a commission, feel free to reach out by email.
+        </div>
+        <div class="info">
+            Email: RussellBoswell@fakeart.online<br>
+            <span class="too-many-cowboys">=&nbspFAKE&nbspART&nbsp=</span>
+        </div>
+    </div>
+
+</body>
+</html>
