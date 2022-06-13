@@ -11,7 +11,7 @@ templateCompInfo.innerHTML = `
             padding: 8vh 0;
             text-align: center;
             display: grid;
-            grid-template-columns: 1fr minmax(0%, 85vh) 1fr;
+            grid-template-columns: 1fr minmax(0%, 86vh) 1fr;
             grid-gap: 2vh;
         }
             .main{

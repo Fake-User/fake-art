@@ -12,7 +12,7 @@
     <link rel="mask-icon" href="/static/images/svg-lettermark-safari.svg" color="#000">
 </head>
 <body>
-    <comp-secret></comp-secret>
+    <secret-message></secret-message>
 
     <comp-header></comp-header>
 
@@ -24,7 +24,7 @@
 
     <comp-info>
         <div slot="main">
-            Hey, my name is Russell Boswell & I'm a 3d artist in Los Angeles California. I make artwork for music people, including looping animations, album covers, & branding assets. Here are some of my projects. If you're interested in a comission, pass me a email.
+            Hey, my name is Russell Boswell & I'm a 3d artist in Los Angeles California. I make artwork for music people, including looping animations, album covers, & branding assets. Here are some of my projects. If you're interested in a working together, you can pass me a email.
         </div>
         <div slot="sub">
             Email: RussellBoswell@fakeart.online
@@ -32,29 +32,64 @@
     </comp-info>
 
     <comp-project-grid link="/index.html">
-        <comp-project name="poster-lumberjvck-nightmare"></comp-project>
-        <comp-project name="poster-hg"></comp-project>
-        <comp-project name="poster-dood"></comp-project>
-        <comp-project name="poster-wavhart-taor"></comp-project>
-        <comp-project name="poster-jackflora-tadow"></comp-project>
-        <comp-project name="poster-fervor-mutate"></comp-project>
+        <comp-project
+            client="LUMBERJVCK"
+            title="NIGHTMARE"
+            img="./static/images/poster-lumberjvck-nightmare.jpg"
+            link="">
+        </comp-project>
+        <comp-project
+            client="HOLLOWED GHOST"
+            title="BROKEN HEART"
+            img="/static/images/poster-hg.jpg"
+            link="">
+        </comp-project>
+        <comp-project
+            client="DOOD"
+            title="DESTROYER OF&nbspWORLDS"
+            img="/static/images/poster-dood.jpg"
+            link="">
+        </comp-project>
+        <comp-project
+            client="WAVHART"
+            title="TURNED&nbspAROUND /&nbspOJAI&nbspRAIN"
+            img="/static/images/poster-wavhart-taor.jpg"
+            link="">
+        </comp-project>
+        <comp-project
+            client="JACK FLORA"
+            title="TADOW"
+            img="/static/images/poster-jackflora-tadow.jpg"
+            link="">
+        </comp-project>
+        <comp-project
+            client="FERVOR"
+            title="MUTATE"
+            img="/static/images/poster-fervor-mutate.jpg"
+            link="">
+        </comp-project>
     </comp-project-grid>
 
     <comp-info>
         <div slot="main">
-            Lots of the software I use is free & open source. It's a philosophy I think could permeate more into the art world. Here are some free open source assets & project files from me to you. Have at em!
+            I use open source software when I make artwork. It's a philosophy I would like to see permeate into the art world more. With that spirit, here are some free assets & open source project files from me to you. Have at em!
         </div>
     </comp-info>
 
     <comp-project-grid link="/index.html">
         <div style="height:0;"></div>
-        <comp-project name="poster-hg"></comp-project>
+        <comp-project
+            client="COMMING SOON"
+            title="they're in the oven"
+            img="/static/images/poster-fakeuser-v61.jpg"
+            link="">
+        </comp-project>
         <div style="height:0;"></div>
     </comp-project-grid>
 
     <comp-info></comp-info>
 
-    <script src="./static/components/comp-secret.js"></script>
+    <script src="./static/components/secret-message.js"></script>
     <script src="./static/components/comp-header.js"></script>
     <script src="./static/components/comp-landing.js"></script>
     <script src="./static/components/comp-info.js"></script>

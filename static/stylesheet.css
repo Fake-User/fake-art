@@ -3,6 +3,9 @@
     .too-many-cowboys{font-family: too-many-cowboys}
 @font-face {font-family: cq-mono; src: url("./fonts/cq-mono.otf");}
     .cq-mono{font-family: cq-mono}
+@font-face {font-family: DugasPro; src: url("./fonts/cq-mono.otf");}
+    .DugasPro{font-family: DugasPro}
+
 html{
     scroll-behavior: smooth;
 }
@@ -36,45 +39,7 @@ h1{
 }
 
 
-/* ------ PROJECTS ------ */
-.projects{
-    box-sizing: border-box;
-    width: 100%;
-    background-color: #1a1a1a;
-    padding: 4vh;
-    display: grid;
 
-    grid-template-columns: auto min(100%, 180vh) auto;
-    grid-template-rows: 1fr auto;
-}
-    .project-grid{
-        grid-area: 1 / 2;
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax( 45vh, 1fr));
-        gap: 4vh;
-    }
-        .project{
-            width: 100%;
-            aspect-ratio: 1 / 1;
-            filter: drop-shadow(0 0 1vh #000);
-        }
-    .projects-link-wrapper{
-        padding-top: 2vh;
-        grid-area: 2 / 2;
-        display: grid;
-        justify-content: center;
-    }
-        .projects-link{
-
-            display: grid;
-            color: #000;
-            background-color: #fff;
-            border-radius: 2.5vh;
-            height: 5vh;
-            width: min-content;
-            margin: 2vh 0 0 0;
-            align-items: center;
-        }
 
 /* ------ FOOTER ------ */
 .footer{

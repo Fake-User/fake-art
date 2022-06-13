@@ -1,5 +1,5 @@
-const templateCompSecret = document.createElement("template");
-templateCompSecret.innerHTML = `
+const templateSecretMessage = document.createElement("template");
+templateSecretMessage.innerHTML = `
     <!--
     ..........................................................................................................................
     ..........................................................................................................................
@@ -50,12 +50,12 @@ templateCompSecret.innerHTML = `
     -->
 `;
 
-class CompSecret extends HTMLElement{
+class SecretMessage extends HTMLElement{
     constructor(){
         super();
         this.attachShadow({mode: "open"});
-        this.shadowRoot.appendChild(templateCompSecret.content.cloneNode(true));
+        this.shadowRoot.appendChild(templateSecretMessage.content.cloneNode(true));
     };
 };
 
-window.customElements.define("comp-secret", CompSecret);
+window.customElements.define("secret-message", SecretMessage);
