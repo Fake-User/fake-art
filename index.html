@@ -12,138 +12,54 @@
     <link rel="mask-icon" href="/static/images/svg-lettermark-safari.svg" color="#000">
 </head>
 <body>
-    <!--
-    ..........................................................................................................................
-    ..........................................................................................................................
-    .....................................................QQ&&B8ggg&Q..........................................................
-    .................................................Q#W8gbXSyuL*!,``:*X......................................................
-    ..............................................QXmU%BQ8ggqm}ci*^~,`` .^R...................................................
-    ............................................Qo<YXqdRbDggPxi>+<?=;_,,'` ~Q.................................................
-    ...........................................U+;*\ivJum%gdKaz*!!>ii=;!+^;,`~{Q..............................................
-    ..........................................s;!||+;;^fgQQQ#%Uyv=;^\cL<|cc<;'``c.............................................
-    .........................................*;|zzuz;?PQQQ#QQ.QBDwfviicxzJYsz*~.`'o...........................................
-    ........................................d;Jm8D#sk&&QQQQQ..QQN%DqPojS6qkmo}<~'``!8.........................................
-    ........................................yzb8QD#Q..........QQWbAbDb6UDDdbXa\^;~{Dg%Q.......................................
-    ........................................xN..Q...............Q%dDDDUjbDDDXu?+;Q....#8......................................
-    .......................................gw8.....................QgKbajqRDd}^~i.............................................
-    .................................Q....Qgb8Q................Q.QQ.QqPRb6dDNXr,m....N........................................
-    ...............................QzdQQQQNmR..................8.&QQ.QDAQQQBQP;;u....Q.QQ.RbQ.................................
-    ...............................67wPqggxYQ..................qQQQQ&QQmQ..Q.&^\<...Q......Ksd................................
-    ................................ddAwooPkW.............Q...QD#.QDAbQoQ..Q..z7+R.........Qb|................................
-    ..................................&dQ...QQ................#UdQDbSA&P.QQg%.B*|7BQ........g^................................
-    ....................................QBQ..QQQ.............QQQ.QDAP86bQQQQyoQw=r<Q.......8i8................................
-    ......................................QQQ.QQQQQQ.......QDQ.QQ#QDUQPmQR#DusqQ|||*bQ..QDj|B.................................
-    .....................................%Q.QQ..QQ.QQRD%#QQQQRb8QQ.RRQq8.W%.RDB.q^>zmAyii>|Q..................................
-    ......................................#88&QQQ..Q.........Dq..QQbQDQ..........k;!vQQQSU....................................
-    .......................................NQQB#.#..QQ...Q..QqQQ&gQQQQ...........N^<!zUd......................................
-    ........................................8Q.Q.Q#..QW....QRB.Q%8Q.N............Q<c7:b.......................................
-    .........................................Q....QWQ.Q....8mQ.QDgQ.QQ..........Qg?oa|........................................
-    ...........................................Q...QQQQQQQQQ&Q.QR8#Q.QQ........QWf{Uoi........................................
-    ............................................Q..QQR.......Q.QQQQ...BQQQQQQQBQk&qoxP........................................
-    .............................................QQQq8........Q..R.....Q..QQWQQPWQQPz.........................................
-    ..............................................Q86Q........Q.QmQ....QQQR#QRSqQQWc%.........................................
-    ................................................DB.QQQ......Qa.....QQQQ..%QQ..gS..........................................
-    .................................................gBbWQ.......Q...........8....WQ..........................................
-    ..................................................Q6RQ.................Qb.................................................
-    ....................................................gQ.QD..............QQ.................................................
-    .....................................................QQQ...QQ.........QQ..................................................
-    .......................................................QQ.QQgRQ.....Qb#..QD&..............................................
-    ........................................................#gUSWQmQQQ...Q...Q%...............................................
-    .........................................................QJi%.QQQQQQ..Q.QQ................................................
-    ..........................................................QDQBQQB8QQQR8Q..................................................
-    .............................................................QQQQ.QQQQ....................................................
-    ..........................................................................................................................
-    ..........................................................................................................................
-    -->
-    <!--
-    Hey, what are you doing in inspector mode you crafty bastard?
-    You seem pretty chill, so feel free to hmu even if you aren't interested in a commision.
-    We should should put back some beers and go to a rave ---.. ----- ..--- ...-- ---.. ----- .---- -.... ...-- ..---
-    -->
+    <comp-secret></comp-secret>
 
-    <!-- HEADER -->
-    <div class="header shadow">
-        <div><!--Spacer--></div>
-        <a href="/index.html">
-            <img class="logo highlight" src="./static/images/svg-lettermark.svg">
-        </a>
-        <div><!--Spacer--></div>
-        <a href="mailto:russellboswell@fakeart.online" target="_blank">
-            <img class="icon highlight" src="./static/images/svg-email.svg">
-        </a>
-        <a href="https://github.com/Fake-User" target="_blank">
-            <img class="icon highlight" src="./static/images/svg-github.svg">
-        </a>
-    </div>
+    <comp-header></comp-header>
 
-    <!-- LANDING -->
-    <div class="landing">
-        <div class="landing-video-wrapper"><!--fix for safari video position: fixed; bug-->
-            <video class="landing-video" autoplay muted loop playsinline poster="./static/images/poster-landing.jpg">
-                <source src="./static/videos/landing.mp4" type="video/mp4">
-            </video>
+    <comp-landing
+        text="IMMATERIAL<br>=&nbspARTISTRY&nbsp="
+        src="./static/videos/landing.mp4"
+        poster="./static/images/poster-landing.jpg">
+    </comp-landing>
+
+    <comp-info>
+        <div slot="main">
+            Hey, my name is Russell Boswell & I'm a 3d artist in Los Angeles California. I make artwork for music people, including looping animations, album covers, & branding assets. Here are some of my projects. If you're interested in a comission you can reach me by email.
         </div>
-    </div>
-    <div class="landing-text-grid">
-        <div class="landing-text">
-            <h1>IMMATERIAL<br>=&nbspARTISTRY&nbsp=</h1>
+        <div slot="sub">
+            Email: RussellBoswell@fakeart.online
         </div>
-    </div>
+    </comp-info>
 
-    <!-- PROJECTS -->
-    <div class="projects shadow">
+    <comp-project-grid>
+    </comp-project-grid>
+
+
+    <comp-info>
+        <div slot="main">
+            Lots of the software I use is free & open source. It's a philosophy I think could permeate more into the art world. Here are some free open source assets & project files from me to you. Have at em!
+        </div>
+    </comp-info>
+
+    <div class="projects">
         <div class="project-grid">
-
-            <video class="project" autoplay muted loop playsinline poster="./static/images/poster-fervor-mutate.jpg">
-                <source src="./static/videos/project-fervor-mutate.mp4" type="video/mp4">
-            </video>
-
-            <video class="project" autoplay muted loop playsinline poster="./static/images/poster-jackflora-tadow.jpg">
-                <source src="./static/videos/project-jackflora-tadow.mp4" type="video/mp4">
-            </video>
-
-            <video class="project" autoplay muted loop playsinline poster="./static/images/poster-wavhart-taor.jpg">
-                <source src="./static/videos/project-wavhart-taor.mp4" type="video/mp4">
-            </video>
-
-            <video class="project" autoplay muted loop playsinline poster="./static/images/poster-lumberjvck-nightmare.jpg">
-                <source src="./static/videos/project-lumberjvck-nightmare.mp4" type="video/mp4">
-            </video>
-
-            <video class="project" autoplay muted loop playsinline poster="./static/images/poster-whyel-filthstorm.jpg">
-                <source src="./static/videos/project-whyel-filthstorm.mp4" type="video/mp4">
-            </video>
-
-            <video class="project" autoplay muted loop playsinline poster="./static/images/poster-fakeuser-v61.jpg">
-                <source src="./static/videos/project-fakeuser-v61.mp4" type="video/mp4">
-            </video>
-
-            <video class="project" autoplay muted loop playsinline poster="./static/images/poster-slavedog-thepressure.jpg">
-                <source src="./static/videos/project-slavedog-thepressure.mp4" type="video/mp4">
-            </video>
-
-            <video class="project" autoplay muted loop playsinline poster="./static/images/poster-glasscage-displacement.jpg">
-                <source src="./static/videos/project-glasscage-displacement.mp4" type="video/mp4">
-            </video>
-
-            <video class="project" autoplay muted loop playsinline poster="./static/images/poster-somedieyoung-wuha.jpg">
-                <source src="./static/videos/project-somedieyoung-wuha.mp4" type="video/mp4">
-            </video>
-
+            <div class="project"></div>
+            <img class="project" src="./static/images/poster-hg.jpg"/>
+            <div class="project"></div>
+        </div>
+        <div class="projects-link-wrapper">
+            <a href="/index.html" class="projects-link">
+                <div>&nbsp&nbspVIEW&nbspMORE&nbsp&nbsp</div>
+            </a>
         </div>
     </div>
 
-    <!-- FOOTER -->
-    <div class="footer ios">
-        <img class="me" src="./static/images/profile-fakeart.png">
-        <div class="about">
-            Hey, my name is Russell Boswell & I'm a 3D motion graphics artist based in Los Angeles California. I make artwork for music people, including looping animations, album covers, and branding assets. If you're interested in a commission, feel free to reach out by email.
-        </div>
-        <div class="info">
-            Email: RussellBoswell@fakeart.online<br>
-            <span class="too-many-cowboys">=&nbspFAKE&nbspART&nbsp=</span>
-        </div>
-    </div>
+    <comp-info></comp-info>
 
+    <script src="./static/components/comp-secret.js"></script>
+    <script src="./static/components/comp-header.js"></script>
+    <script src="./static/components/comp-landing.js"></script>
+    <script src="./static/components/comp-info.js"></script>
+    <script src="./static/components/comp-project-grid.js"></script>
 </body>
 </html>
