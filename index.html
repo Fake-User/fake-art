@@ -24,16 +24,21 @@
 
     <comp-info>
         <div slot="main">
-            Hey, my name is Russell Boswell & I'm a 3d artist in Los Angeles California. I make artwork for music people, including looping animations, album covers, & branding assets. Here are some of my projects. If you're interested in a comission you can reach me by email.
+            Hey, my name is Russell Boswell & I'm a 3d artist in Los Angeles California. I make artwork for music people, including looping animations, album covers, & branding assets. Here are some of my projects. If you're interested in a comission, pass me a email.
         </div>
         <div slot="sub">
             Email: RussellBoswell@fakeart.online
         </div>
     </comp-info>
 
-    <comp-project-grid>
+    <comp-project-grid link="/index.html">
+        <comp-project name="poster-lumberjvck-nightmare"></comp-project>
+        <comp-project name="poster-hg"></comp-project>
+        <comp-project name="poster-dood"></comp-project>
+        <comp-project name="poster-wavhart-taor"></comp-project>
+        <comp-project name="poster-jackflora-tadow"></comp-project>
+        <comp-project name="poster-fervor-mutate"></comp-project>
     </comp-project-grid>
-
 
     <comp-info>
         <div slot="main">
@@ -41,18 +46,11 @@
         </div>
     </comp-info>
 
-    <div class="projects">
-        <div class="project-grid">
-            <div class="project"></div>
-            <img class="project" src="./static/images/poster-hg.jpg"/>
-            <div class="project"></div>
-        </div>
-        <div class="projects-link-wrapper">
-            <a href="/index.html" class="projects-link">
-                <div>&nbsp&nbspVIEW&nbspMORE&nbsp&nbsp</div>
-            </a>
-        </div>
-    </div>
+    <comp-project-grid link="/index.html">
+        <div style="height:0;"></div>
+        <comp-project name="poster-hg"></comp-project>
+        <div style="height:0;"></div>
+    </comp-project-grid>
 
     <comp-info></comp-info>
 
@@ -61,5 +59,6 @@
     <script src="./static/components/comp-landing.js"></script>
     <script src="./static/components/comp-info.js"></script>
     <script src="./static/components/comp-project-grid.js"></script>
+    <script src="./static/components/comp-project.js"></script>
 </body>
 </html>

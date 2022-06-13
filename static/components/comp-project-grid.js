@@ -20,19 +20,13 @@ templateCompProjectGrid.innerHTML = `
             grid-template-columns: repeat(auto-fit, minmax( 45vh, 1fr));
             gap: 4vh;
         }
-            .project{
-                width: 100%;
-                aspect-ratio: 1 / 1;
-                filter: drop-shadow(0 0 1vh #000);
-            }
         .projects-link-wrapper{
             padding-top: 2vh;
             grid-area: 2 / 2;
             display: grid;
             justify-content: center;
         }
-            .projects-link{
-
+            #projects-link{
                 display: grid;
                 color: #000;
                 background-color: #fff;
@@ -42,20 +36,14 @@ templateCompProjectGrid.innerHTML = `
                 margin: 2vh 0 0 0;
                 align-items: center;
             }
-
     </style>
 
     <div class="projects">
         <div class="project-grid">
-            <img class="project" src="./static/images/poster-lumberjvck-nightmare.jpg"/>
-            <img class="project" src="./static/images/poster-hg.jpg"/>
-            <img class="project" src="./static/images/poster-dood.jpg"/>
-            <img class="project" src="./static/images/poster-wavhart-taor.jpg"/>
-            <img class="project" src="./static/images/poster-jackflora-tadow.jpg"/>
-            <img class="project" src="./static/images/poster-fervor-mutate.jpg"/>
+            <slot></slot>
         </div>
         <div class="projects-link-wrapper">
-            <a href="/index.html" class="projects-link">
+            <a href="" id="projects-link">
                 <div>&nbsp&nbspVIEW&nbspMORE&nbsp&nbsp</div>
             </a>
         </div>
@@ -67,6 +55,9 @@ class CompProjectGrid extends HTMLElement{
         super();
         this.attachShadow({mode: "open"});
         this.shadowRoot.appendChild(templateCompProjectGrid.content.cloneNode(true));
+
+        /* Routing */
+        this.shadowRoot.getElementById("project-link").href = this.getAttribute("link");
     };
 };
 
