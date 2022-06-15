@@ -47,10 +47,10 @@ templateCompHeader.innerHTML = `
         </a>
         <div><!--Spacer--></div>
         <a href="/index.html">
-            <img class="icon highlight" src="/static/images/hex.svg">
+            <!--<img class="icon highlight" src="/static/images/hex.svg">-->
         </a>
         <a href="/index.html">
-            <img class="icon highlight" src="/static/images/svg-opensource.svg">
+            <!--<img class="icon highlight" src="/static/images/svg-opensource.svg">-->
         </a>
         <a href="https://github.com/Fake-User" target="_blank">
             <img class="icon highlight" src="/static/images/svg-github.svg">

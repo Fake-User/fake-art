@@ -42,11 +42,11 @@ templateCompProjectGrid.innerHTML = `
         <div class="project-grid">
             <slot></slot>
         </div>
-        <div class="projects-link-wrapper">
+        <!-- <div class="projects-link-wrapper">
             <a href="" id="projects-link">
                 <div>&nbsp&nbspVIEW&nbspMORE&nbsp&nbsp</div>
             </a>
-        </div>
+        </div> -->
     </div>
 `;
 

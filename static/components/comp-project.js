@@ -12,7 +12,6 @@ templateCompProject.innerHTML = `
         background: #0008;
         background-size: cover;
         display: block;
-
     }
         #project-text-wrapper{
             width: 100%;
@@ -32,7 +31,6 @@ templateCompProject.innerHTML = `
                 grid-area: 2 / 1;
                 padding: 10% 0;
                 background: #000a;
-                font-family: DugasPro;
                 letter-spacing: 50%;
                 text-align: center;
                 line-height: calc(0.5vh + 1.5vw);

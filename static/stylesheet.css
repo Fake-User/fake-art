@@ -1,10 +1,8 @@
 /* ------ GLOBAL ------ */
-@font-face {font-family: too-many-cowboys; src: url("./fonts/too-many-cowboys.ttf");}
-    .too-many-cowboys{font-family: too-many-cowboys}
 @font-face {font-family: cq-mono; src: url("./fonts/cq-mono.otf");}
     .cq-mono{font-family: cq-mono}
-@font-face {font-family: DugasPro; src: url("./fonts/cq-mono.otf");}
-    .DugasPro{font-family: DugasPro}
+@font-face {font-family: night-devision; src: url("./fonts/Fontspring-DEMO-podiumsharp-6.13.otf");}
+    .night-devision{font-family: night-devision}
 
 html{
     scroll-behavior: smooth;
