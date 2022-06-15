@@ -66,7 +66,7 @@ class CompProject extends HTMLElement{
         this.shadowRoot.getElementById("client").innerHTML = this.getAttribute("client");
         this.shadowRoot.getElementById("title").innerHTML = this.getAttribute("title");
 
-        this.shadowRoot.getElementById("project").href = "url('" + this.getAttribute("link") + "')";
+        this.shadowRoot.getElementById("project").href = this.getAttribute("link");
     }
 };
 
