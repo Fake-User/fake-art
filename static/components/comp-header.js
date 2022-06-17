@@ -38,27 +38,33 @@ templateCompHeader.innerHTML = `
                 margin: 2vh 0;
                 align-items: center;
             }
+        .head-spacer{
+            width: 100%;
+            height: 9vh;
+            background-color: #000;
+        }
     </style>
 
     <div class="header shadow">
         <div><!--Spacer--></div>
         <a href="/index.html">
-            <img class="logo highlight" src="/static/images/svg-lettermark.svg">
+            <img class="logo highlight" src="/static/content/svg-lettermark.svg">
         </a>
         <div><!--Spacer--></div>
         <a href="/index.html">
-            <!--<img class="icon highlight" src="/static/images/hex.svg">-->
+            <!--<img class="icon highlight" src="/static/content/hex.svg">-->
         </a>
         <a href="/index.html">
-            <!--<img class="icon highlight" src="/static/images/svg-opensource.svg">-->
+            <!--<img class="icon highlight" src="/static/content/svg-opensource.svg">-->
         </a>
         <a href="https://github.com/Fake-User" target="_blank">
-            <img class="icon highlight" src="/static/images/svg-github.svg">
+            <img class="icon highlight" src="/static/content/svg-github.svg">
         </a>
         <a href="mailto:russellboswell@fakeart.online" target="_blank">
             <div class="button"><div>&nbsp&nbspCONTACT&nbsp&nbsp</div></div>
         </a>
     </div>
+    <div class="header-spacer"></div>
 `;
 
 class CompHeader extends HTMLElement{

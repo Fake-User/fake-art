@@ -10,7 +10,6 @@ templateCompProjectGrid.innerHTML = `
         background-color: #1a1a1a;
         padding: 4vh;
         display: grid;
-
         grid-template-columns: auto min(100%, 180vh) auto;
         grid-template-rows: 1fr auto;
     }
@@ -37,7 +36,6 @@ templateCompProjectGrid.innerHTML = `
                 align-items: center;
             }
     </style>
-
     <div class="projects">
         <div class="project-grid">
             <slot></slot>

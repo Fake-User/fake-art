@@ -43,11 +43,10 @@ templateSecretMessage.innerHTML = `
     ..........................................................................................................................
     ..........................................................................................................................
     -->
-    <!--
-    Hey, what are you doing in inspector mode you crafty bastard?
-    You seem pretty chill, so feel free to hmu even if you aren't interested in a commision.
-    We should should put back some beers and go to a rave ---.. ----- ..--- ...-- ---.. ----- .---- -.... ...-- ..---
-    -->
+    <!--What are you doing in inspector mode you crafty bastard?-->
+    <!--You seem pretty chill, hmu sometime.-->
+    <!--We should should put back some beers and go to a rave-->
+    <!--|---.. ----- ..--- ...-- ---.. ----- .---- -.... ...-- ..---|-->
 `;
 
 class SecretMessage extends HTMLElement{

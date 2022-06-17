@@ -3,13 +3,13 @@ templateCompLanding.innerHTML = `
     <style>
         .landing{
             width: 100%;
-            height: 100vh;
+            height: 91vh;
         }
             .landing-video-wrapper{
                 width: 100%;
-                height: 100%;
+                height: 91vh;
                 position: fixed;
-                top: 0;
+                top: 9vh;
                 left: 0;
                 z-index:-10;
             }

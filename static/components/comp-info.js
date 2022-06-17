@@ -5,7 +5,7 @@ templateCompInfo.innerHTML = `
             width: 100vw;
             height: 100%;
             background-color: #000;
-            background-image: url("/static/images/paper-1.jpg");
+            background-image: url("/static/content/paper-1.jpg");
             background-position: center;
             background-size: cover;
             padding: 8vh 0;
