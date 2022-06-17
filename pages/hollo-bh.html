@@ -27,16 +27,49 @@
         slim="/static/content/hollo/bh/hollo-bh-9x16.jpg">
     </comp-aspect-grid>
 
-    <comp-info></comp-info>
+    <comp-project-info
+        banner="/static/content/hollo/bh/hollo-bh-bn.jpg">
+        <div>PROJECT INFO COMING SOON</div>
+    </comp-project-info>
 
     <comp-alt-grid
-    1="/static/content/hollo/bh/hollo-bh-1x1.jpg"
-    2="/static/content/hollo/bh/hollo-bh-1x1v2.jpg"
-    3="/static/content/hollo/bh/hollo-bh-1x1v3.jpg">
+        1="/static/content/hollo/bh/hollo-bh-1x1.jpg"
+        2="/static/content/hollo/bh/hollo-bh-1x1v2.jpg"
+        3="/static/content/hollo/bh/hollo-bh-1x1v3.jpg">
     </comp-alt-grid>
 
+    <!--<style>
+    .fuckeyyy{
+        width: 100%;
+        box-sizing: border-box;
+        background-image: url("/static/content/paper-1.jpg");
+        background-size: cover;
+        padding: 4vh;
+        display: grid;
+        grid-template-columns: 1fr auto 1fr;
 
-    <comp-info></comp-info>
+    }
+        .shitter{
+            grid-area: 1 / 2;
+            filter: drop-shadow(0 0 1vh #000);
+            box-sizing: border-box;
+            border-radius: 2vh;
+            aspect-ratio: 1 / 1;
+            width: min(100%, 65vh);
+            justify-self: center;
+        }
+
+    </style>
+
+    <div class="fuckeyyy">
+        <video autoplay muted loop playsinline type="video/mp4" class="shitter" src="/static/content/hollo/bh/hollo-bh-1x1.mp4">
+    </div>-->
+
+    <comp-project-vid
+        src="/static/content/hollo/bh/hollo-bh-1x1.mp4"
+        poster="/static/content/hollo/bh/hollo-bh-1x1.jpg"
+    >
+    </comp-project-vid>
 
     <script src="/static/components/comp-header.js"></script>
     <script src="/static/components/comp-landing.js"></script>
@@ -45,5 +78,7 @@
     <script src="/static/components/comp-project-grid.js"></script>
     <script src="/static/components/comp-aspect-grid.js"></script>
     <script src="/static/components/comp-alt-grid.js"></script>
+    <script src="/static/components/comp-project-info.js"></script>
+    <script src="/static/components/comp-project-vid.js"></script>
 </body>
 </html>
