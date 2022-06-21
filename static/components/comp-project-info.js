@@ -5,6 +5,7 @@ templateCompProjectInfo.innerHTML = `
             box-sizing: border-box;
             width: 100%;
             background-image: url("/static/content/paper-1.jpg");
+            background-position: center;
             background-size: cover;
             padding: 4vh;
             display: grid;
@@ -25,6 +26,7 @@ templateCompProjectInfo.innerHTML = `
                     flex: 1 1 60%;
                     background-size: cover;
                     aspect-ratio: 2480 / 520;
+                    border-radius: min(2vh, 1vw);
                 }
     </style>
 

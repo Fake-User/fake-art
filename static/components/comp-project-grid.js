@@ -54,8 +54,8 @@ class CompProjectGrid extends HTMLElement{
         this.attachShadow({mode: "open"});
         this.shadowRoot.appendChild(templateCompProjectGrid.content.cloneNode(true));
 
-        /* Routing */
-        this.shadowRoot.getElementById("projects-link").href = this.getAttribute("link");
+        /* Routing
+        this.shadowRoot.getElementById("projects-link").href = this.getAttribute("link"); */
     };
 };
 

@@ -21,6 +21,7 @@ templateCompAltGrid.innerHTML = `
                     filter: drop-shadow(0 0 1vh #000);
                     background: #0008;
                     background-size: cover;
+                    border-radius: min(2vh, 1vw);
                 }
     </style>
 

@@ -5,6 +5,7 @@ templateCompProjectVid.innerHTML = `
         width: 100%;
         box-sizing: border-box;
         background-image: url("/static/content/paper-1.jpg");
+        background-position: center;
         background-size: cover;
         padding: 4vh;
         display: grid;
@@ -15,7 +16,7 @@ templateCompProjectVid.innerHTML = `
             grid-area: 1 / 2;
             filter: drop-shadow(0 0 1vh #000);
             box-sizing: border-box;
-            border-radius: 2vh;
+            border-radius: min(2vh, 1vw);
             aspect-ratio: 1 / 1;
             width: min(100%, 65vh);
             justify-self: center;
@@ -23,7 +24,7 @@ templateCompProjectVid.innerHTML = `
     </style>
 
     <div id="vid-wrapper">
-        <video autoplay muted loop playsinline type="video/mp4" id="vid" src="/static/content/hollo/bh/hollo-bh-1x1.mp4">
+        <video autoplay muted loop playsinline type="video/mp4" id="vid" src="/static/content/hollo/bh/hollo-bh-1x1.webm">
     </div>
 
 `;

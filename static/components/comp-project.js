@@ -8,7 +8,7 @@ templateCompProject.innerHTML = `
         width: 100%;
         aspect-ratio: 1 / 1;
         filter: drop-shadow(0 0 1vh #000);
-        border-radius: 2vh;
+        border-radius: min(2vh, 1vw);
         background: #0008;
         background-size: cover;
         display: block;
