@@ -52,7 +52,7 @@ templateCompHeader.innerHTML = `
         </a>
         <div><!--Spacer--></div>
         <a href="/index.html">
-            <!--<img class="icon highlight" src="/static/content/svg/hex.svg">-->
+            <!--<img class="icon highlight" src="/static/content/svg/svg-projects.svg">-->
         </a>
         <a href="/index.html">
             <!--<img class="icon highlight" src="/static/content/svg/svg-opensource.svg">-->

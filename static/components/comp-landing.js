@@ -3,7 +3,7 @@ templateCompLanding.innerHTML = `
     <style>
         .landing{
             width: 100%;
-            height: 91vh;
+            height: 99vh;
         }
             .landing-video-wrapper{
                 width: 100%;
@@ -18,11 +18,30 @@ templateCompLanding.innerHTML = `
                     height: 100%;
                     object-fit: cover;
                 }
+            .look-here{
+                height: inherit;
+                display: flex;
+                justify-content: center;
+                align-items: flex-end;
+            }
+                .read-me{
+                    display: grid;
+                    border: 0.3vh solid #fff;
+                    border-radius: 2.5vh;
+                    height: 5vh;
+                    margin: 2vh 0;
+                    align-items: center;
+                    mix-blend-mode: difference;
+                }
+
     </style>
 
     <div class="landing">
         <div class="landing-video-wrapper"><!--fix for safari video position: fixed; bug-->
             <video id="landing-video" autoplay muted loop playsinline type="video/mp4"></video>
+        </div>
+        <div class="look-here">
+            <div class="read-me">&nbsp&nbspSCROLL&nbspDOWN&nbsp&nbsp</div>
         </div>
     </div>
 `;

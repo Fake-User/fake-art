@@ -32,7 +32,7 @@ templateCompProjectInfo.innerHTML = `
 
     <div class="branding-wrapper">
         <div class="branding-grid">
-            <div class="info"><slot></slot></div>
+            <!--<div class="info"><slot></slot></div>-->
             <div id="banner"></div>
         </div>
     </div>
