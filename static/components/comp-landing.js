@@ -53,8 +53,9 @@ class CompLanding extends HTMLElement{
         this.shadowRoot.appendChild(templateCompLanding.content.cloneNode(true));
 
         /* Style */
-        this.shadowRoot.getElementById('landing-video').src = this.getAttribute("src");
         this.shadowRoot.getElementById('landing-video').poster = this.getAttribute("poster");
+        this.shadowRoot.getElementById('landing-video').src = this.getAttribute("src");
+
     };
 };
 
