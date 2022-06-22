@@ -48,17 +48,17 @@ templateCompHeader.innerHTML = `
     <div class="header shadow">
         <div><!--Spacer--></div>
         <a href="/index.html">
-            <img class="logo highlight" src="/static/content/svg-lettermark.svg">
+            <img class="logo highlight" src="/static/content/svg/svg-lettermark.svg">
         </a>
         <div><!--Spacer--></div>
         <a href="/index.html">
-            <!--<img class="icon highlight" src="/static/content/hex.svg">-->
+            <!--<img class="icon highlight" src="/static/content/svg/hex.svg">-->
         </a>
         <a href="/index.html">
-            <!--<img class="icon highlight" src="/static/content/svg-opensource.svg">-->
+            <!--<img class="icon highlight" src="/static/content/svg/svg-opensource.svg">-->
         </a>
         <a href="https://github.com/Fake-User" target="_blank">
-            <img class="icon highlight" src="/static/content/svg-github.svg">
+            <img class="icon highlight" src="/static/content/svg/svg-github.svg">
         </a>
         <a href="mailto:russellboswell@fakeart.online" target="_blank">
             <div class="button"><div>&nbsp&nbspCONTACT&nbsp&nbsp</div></div>

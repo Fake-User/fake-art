@@ -4,7 +4,7 @@ templateCompProjectInfo.innerHTML = `
         .branding-wrapper{
             box-sizing: border-box;
             width: 100%;
-            background-image: url("/static/content/paper-1.jpg");
+            background-image: url("/static/content/bg/paper.webp");
             background-position: center;
             background-size: cover;
             padding: 4vh;

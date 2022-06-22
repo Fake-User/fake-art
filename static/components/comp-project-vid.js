@@ -4,7 +4,7 @@ templateCompProjectVid.innerHTML = `
     #vid-wrapper{
         width: 100%;
         box-sizing: border-box;
-        background-image: url("/static/content/paper-1.jpg");
+        background-image: url("/static/content/bg/paper.webp");
         background-position: center;
         background-size: cover;
         padding: 4vh;
