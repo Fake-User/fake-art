@@ -36,8 +36,8 @@ class CompProjectVid extends HTMLElement{
         this.shadowRoot.appendChild(templateCompProjectVid.content.cloneNode(true));
 
         /* Style */
-        this.shadowRoot.getElementById('vid').src = this.getAttribute("src");
         this.shadowRoot.getElementById('vid').poster = this.getAttribute("poster");
+        this.shadowRoot.getElementById('vid').src = this.getAttribute("src");
     };
 };
 
