@@ -3,7 +3,7 @@ templateCompLanding.innerHTML = `
     <style>
         .landing{
             width: 100%;
-            height: 99vh;
+            height: 100vh;
         }
             .landing-video-wrapper{
                 width: 100%;
@@ -29,7 +29,7 @@ templateCompLanding.innerHTML = `
                     border: 0.3vh solid #fff;
                     border-radius: 2.5vh;
                     height: 5vh;
-                    margin: 2vh 0;
+                    margin: 3vh 0;
                     align-items: center;
                     mix-blend-mode: difference;
                 }
@@ -38,7 +38,7 @@ templateCompLanding.innerHTML = `
 
     <div class="landing">
         <div class="landing-video-wrapper"><!--fix for safari video position: fixed; bug-->
-            <video id="landing-video" autoplay muted loop playsinline type="video/mp4"></video>
+            <video id="landing-video" autoplay muted loop playsinline poster="" type="video/mp4"></video>
         </div>
         <div class="look-here">
             <div class="read-me">&nbsp&nbspSCROLL&nbspDOWN&nbsp&nbsp</div>
