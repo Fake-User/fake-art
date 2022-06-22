@@ -15,24 +15,37 @@ templateCompInfo.innerHTML = `
             grid-gap: 2vh;
         }
             .main{
+                grid-area: 1 / 2;
             }
             .sub{
+                grid-area: 2 / 2;
                 color: #888;
                 font-size: 2vh;
+            }
+            .tip{
+                grid-area: 3 / 2;
+                color: #888;
+                width: min-content;
+                font-size: 2vh;
+                display: grid;
+                border: 0.3vh solid #888;
+                border-radius: 2.5vh;
+                height: 5vh;
+                align-items: center;
+                mix-blend-mode: difference;
             }
     </style>
 
     <div class="info">
-        <div><!-- Spacer --></div>
         <div class="main">
             <slot name="main"></slot>
         </div>
-        <div><!-- Spacer --></div>
-        <div><!-- Spacer --></div>
         <div class="sub">
             <slot name="sub"></slot>
         </div>
-        <div><!-- Spacer --></div>
+        <!--<div class="tip">
+            <slot name="tip"></slot>
+        </div>-->
     </div>
 
 `;
