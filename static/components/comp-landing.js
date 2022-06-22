@@ -38,7 +38,7 @@ templateCompLanding.innerHTML = `
 
     <div class="landing">
         <div class="landing-video-wrapper"><!--fix for safari video position: fixed; bug-->
-            <video id="landing-video" autoplay muted loop playsinline poster="" type="video/mp4"></video>
+            <video id="landing-video" autoplay muted loop playsinline poster="/static/content/bg/paper.webp" type="video/mp4"></video>
         </div>
         <div class="look-here">
             <div class="read-me">&nbsp&nbspSCROLL&nbspDOWN&nbsp&nbsp</div>
