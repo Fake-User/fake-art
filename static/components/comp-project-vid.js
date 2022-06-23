@@ -24,7 +24,10 @@ templateCompProjectVid.innerHTML = `
     </style>
 
     <div id="vid-wrapper">
-        <video autoplay muted loop playsinline type="video/mp4" id="vid" src="/static/content/hollo/bh/hollo-bh-1x1.webm">
+        <video autoplay muted loop playsinline type="video/mp4" id="vid">
+            <source id="webm" src="" type="video/mp4">
+            <source id="mp4" src="" type="video/webm">
+        </video>
     </div>
 
 `;
@@ -37,7 +40,8 @@ class CompProjectVid extends HTMLElement{
 
         /* Style */
         this.shadowRoot.getElementById('vid').poster = this.getAttribute("poster");
-        this.shadowRoot.getElementById('vid').src = this.getAttribute("src");
+        this.shadowRoot.getElementById('webm').src = this.getAttribute("webm");
+        this.shadowRoot.getElementById('mp4').src = this.getAttribute("mp4");
     };
 };
 
