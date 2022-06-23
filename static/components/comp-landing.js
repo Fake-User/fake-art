@@ -40,7 +40,7 @@ templateCompLanding.innerHTML = `
         <div class="landing-video-wrapper"><!--fix for safari video position: fixed; bug-->
             <video id="landing-video" autoplay muted loop playsinline poster="/static/content/bg/paper.webp">
                 <source id="webm" src="" type="video/mp4">
-                <source id="mp4" src="" type="video/webm">
+                <source id="vid" src="" type="video/webm">
             </video>
         </div>
         <div class="look-here">
@@ -58,7 +58,7 @@ class CompLanding extends HTMLElement{
         /* Style */
         this.shadowRoot.getElementById('landing-video').poster = this.getAttribute("poster");
         this.shadowRoot.getElementById('webm').src = this.getAttribute("webm");
-        this.shadowRoot.getElementById('mp4').src = this.getAttribute("mp4");
+        this.shadowRoot.getElementById('vid').src = this.getAttribute("vid");
 
     };
 };
