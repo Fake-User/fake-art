@@ -22,18 +22,22 @@ templateCompInfo.innerHTML = `
                 color: #888;
                 font-size: 2vh;
             }
-            .tip{
+            .tip-wrapper{
                 grid-area: 3 / 2;
-                color: #888;
-                width: min-content;
-                font-size: 2vh;
-                display: grid;
-                border: 0.3vh solid #888;
-                border-radius: 2.5vh;
-                height: 5vh;
-                align-items: center;
-                mix-blend-mode: difference;
+                display: flex;
+                justify-content: center;
+
             }
+                .tip{
+                    display: flex;
+                    align-items: center;
+                    width: min-content;
+                    color: #888;
+                    font-size: 2vh;
+                    border: 0.3vh solid #888;
+                    border-radius: 2.5vh;
+                    height: 5vh;
+                }
     </style>
 
     <div class="info">
@@ -43,9 +47,11 @@ templateCompInfo.innerHTML = `
         <div class="sub">
             <slot name="sub"></slot>
         </div>
-        <!--<div class="tip">
-            <slot name="tip"></slot>
-        </div>-->
+        <div class="tip-wrapper">
+            <div class="tip">
+                <slot name="tip"></slot>
+            </div>
+        </div>
     </div>
 
 `;
