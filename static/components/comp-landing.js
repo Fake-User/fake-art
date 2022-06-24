@@ -41,8 +41,7 @@ templateCompLanding.innerHTML = `
             <video id="landing-video" src="" autoplay muted loop playsinline poster="/static/content/bg/paper.webp"></video>
         </div>
         <div class="look-here">
-            <!--<div class="read-me">&nbsp&nbspFUUUUUCK&nbsp&nbsp</div>-->
-            <!--<div class="read-me">&nbsp&nbspSCROLL&nbspDOWN&nbsp&nbsp</div>-->
+            <div class="read-me">&nbsp&nbspSCROLL&nbspDOWN&nbsp&nbsp</div>
         </div>
     </div>
 `;
