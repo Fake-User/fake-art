@@ -43,7 +43,8 @@ templateCompLanding.innerHTML = `
             </video>
         </div>
         <div class="look-here">
-            <div class="read-me">&nbsp&nbspSCROLL&nbspDOWN&nbsp&nbsp</div>
+            <!--<div class="read-me">&nbsp&nbspFUUUUUCK&nbsp&nbsp</div>-->
+            <!--<div class="read-me">&nbsp&nbspSCROLL&nbspDOWN&nbsp&nbsp</div>-->
         </div>
     </div>
 `;
