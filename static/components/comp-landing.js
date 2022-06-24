@@ -39,8 +39,7 @@ templateCompLanding.innerHTML = `
     <div class="landing">
         <div class="landing-video-wrapper"><!--fix for safari video position: fixed; bug-->
             <video id="landing-video" autoplay muted loop playsinline poster="/static/content/bg/paper.webp">
-                <source id="webm" src="" type="video/mp4">
-                <source id="vid" src="" type="video/webm">
+                <source id="vid" src="" type="video/mp4">
             </video>
         </div>
         <div class="look-here">
