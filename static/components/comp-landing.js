@@ -38,9 +38,7 @@ templateCompLanding.innerHTML = `
 
     <div class="landing">
         <div class="landing-video-wrapper"><!--fix for safari video position: fixed; bug-->
-            <video id="landing-video" autoplay muted loop playsinline poster="/static/content/bg/paper.webp">
-                <source id="vid" src="" type="video/mp4">
-            </video>
+            <video id="landing-video" src="" autoplay muted loop playsinline poster="/static/content/bg/paper.webp"></video>
         </div>
         <div class="look-here">
             <!--<div class="read-me">&nbsp&nbspFUUUUUCK&nbsp&nbsp</div>-->
@@ -57,8 +55,7 @@ class CompLanding extends HTMLElement{
 
         /* Style */
         this.shadowRoot.getElementById('landing-video').poster = this.getAttribute("poster");
-        this.shadowRoot.getElementById('webm').src = this.getAttribute("webm");
-        this.shadowRoot.getElementById('vid').src = this.getAttribute("vid");
+        this.shadowRoot.getElementById('landing-video').src = this.getAttribute("vid");
 
     };
 };
