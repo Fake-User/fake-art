@@ -21,7 +21,7 @@ templateCompLanding.innerHTML = `
 
                 }
             .look-here{
-                height: inherit;
+                height: 100dvh;
                 display: flex;
                 justify-content: center;
                 align-items: flex-end;
