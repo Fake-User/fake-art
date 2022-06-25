@@ -21,7 +21,7 @@ templateCompLanding.innerHTML = `
 
                 }
             .look-here{
-                height: 100dvh;
+                height: 100vh; /* Use dvh when supported by chrome */
                 display: flex;
                 justify-content: center;
                 align-items: flex-end;
