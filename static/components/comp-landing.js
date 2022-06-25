@@ -12,7 +12,7 @@ templateCompLanding.innerHTML = `
                 top: 9vh;
                 left: 0;
                 z-index:-10;
-                will-change: transform;
+                will-change: transform; /* Helps eliminate jank but cuases weird sizing jump */
             }
                 #landing-video{
                     width: 100%;
@@ -43,7 +43,7 @@ templateCompLanding.innerHTML = `
             <video id="landing-video" src="" autoplay muted loop playsinline poster="/static/content/bg/paper.webp"></video>
         </div>
         <div class="look-here">
-            <div class="read-me">&nbsp&nbspSCROLL&nbspDOWNSUK&nbsp&nbsp</div>
+            <div class="read-me">&nbsp&nbspSCROLL&nbspDOWN&nbsp&nbsp</div>
         </div>
     </div>
 `;
