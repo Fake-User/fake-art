@@ -12,11 +12,13 @@ templateCompLanding.innerHTML = `
                 top: 9vh;
                 left: 0;
                 z-index:-10;
+                will-change: transform;
             }
                 #landing-video{
                     width: 100%;
                     height: 100%;
                     object-fit: cover;
+
                 }
             .look-here{
                 height: inherit;
@@ -41,7 +43,7 @@ templateCompLanding.innerHTML = `
             <video id="landing-video" src="" autoplay muted loop playsinline poster="/static/content/bg/paper.webp"></video>
         </div>
         <div class="look-here">
-            <div class="read-me">&nbsp&nbspSCROLL&nbspDOWN&nbsp&nbsp</div>
+            <div class="read-me">&nbsp&nbspSCROLL&nbspDOWNSUK&nbsp&nbsp</div>
         </div>
     </div>
 `;
@@ -55,7 +57,6 @@ class CompLanding extends HTMLElement{
         /* Style */
         this.shadowRoot.getElementById('landing-video').poster = this.getAttribute("poster");
         this.shadowRoot.getElementById('landing-video').src = this.getAttribute("vid");
-
     };
 };
 
