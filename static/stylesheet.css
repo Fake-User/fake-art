@@ -1,4 +1,3 @@
-/* ------ GLOBAL ------ */
 @font-face {font-family: cq-mono; src: url("./fonts/cq-mono.otf");}
     .cq-mono{font-family: cq-mono}
 @font-face {font-family: night-devision; src: url("./fonts/Fontspring-DEMO-podiumsharp-6.13.otf");}
@@ -35,45 +34,3 @@ h1{
     filter: drop-shadow(0 0 1vh #fffa);
     animation-duration: 0s;
 }
-
-
-
-
-/* ------ FOOTER ------ */
-.footer{
-    width: 100%;
-    height: 100%;
-    background-image: url("./content/paper.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    padding: 4vh 0;
-    text-align: center;
-    display: grid;
-    grid-template-columns: 1fr minmax(0%, 85vh) 1fr;
-    grid-template-rows: 9vh auto auto;
-    grid-gap: 4vh;
-}
-    @supports(-webkit-touch-callout: inherit){
-        .ios{
-            background-attachment: scroll !important;
-        }
-    }
-    .me{
-        grid-area: 1 / 2;
-        margin: auto;
-        height: 12vh;
-        width: 12vh;
-        border-radius: 100%;
-    }
-    .about{
-        grid-area: 2 / 2;
-        mix-blend-mode: difference;
-    }
-    .info{
-        grid-area: 3 / 2;
-        color: #888;
-        font-size: 1.5vh;
-        text-align: center;
-        mix-blend-mode: difference;
-    }
