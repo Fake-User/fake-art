@@ -61,7 +61,7 @@ templateCompHeader.innerHTML = `
             <img class="icon highlight" src="/static/content/svg/svg-github.svg">
         </a>
         <a href="mailto:russellboswell@fakeart.online" target="_blank">
-            <div class="button"><div>&nbsp&nbspCONTACT&nbsp&nbsp</div></div>
+            <div class="button"><div>&nbsp&nbspWHATS&nbspUP&nbsp&nbsp</div></div>
         </a>
     </div>
     <div class="header-spacer"></div>
