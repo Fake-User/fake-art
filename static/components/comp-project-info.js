@@ -19,7 +19,7 @@ templateCompProjectInfo.innerHTML = `
             }
                 .info{
                     text-align: center;
-                    flex: 1 1 min(100vw, 55vh);
+                    flex: 1 1 min(100%, 55vh);
                     align-self: center;
                 }
                 #banner{

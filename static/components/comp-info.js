@@ -2,7 +2,7 @@ const templateCompInfo = document.createElement("template");
 templateCompInfo.innerHTML = `
     <style>
         .info{
-            width: 100vw;
+            width: 100%;
             height: 100%;
             background-color: #000;
             background-image: url("/static/content/bg/paper.webp");
