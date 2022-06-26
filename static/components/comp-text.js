@@ -9,6 +9,7 @@ templateCompText.innerHTML = `
             font-family: night-devision;
             padding: calc(2vh + 4vw) 0 calc(50vh - calc(2vh + 4vw)) 0;
             mix-blend-mode: difference;
+            font-kerning: none;
         }
     </style>
 
