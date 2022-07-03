@@ -66,6 +66,7 @@ class CompDL extends HTMLElement{
         this.shadowRoot.getElementById("client").innerHTML = this.getAttribute("client");
         this.shadowRoot.getElementById("title").innerHTML = this.getAttribute("title");
 
+        /* Routing */
         this.shadowRoot.getElementById("project").href = this.getAttribute("link");
     }
 };
