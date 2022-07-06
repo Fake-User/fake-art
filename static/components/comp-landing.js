@@ -3,7 +3,8 @@ templateCompLanding.innerHTML = `
     <style>
         .landing{
             width: 100%;
-            height: 100vh;
+            height: min-content;
+            min-height: 100vh;
         }
             .landing-video-wrapper{
                 width: 100%;
@@ -18,23 +19,17 @@ templateCompLanding.innerHTML = `
                     width: 100%;
                     height: 100%;
                     object-fit: cover;
-
                 }
-            .look-here{
-                height: 100vh; /* Use dvh when supported by chrome */
-                display: flex;
-                justify-content: center;
-                align-items: flex-end;
+            #text{
+                text-align: center;
+                font-size: min(20vh, 10vw);
+                line-height: min(18vh, 9vw);
+                letter-spacing: min(1.6vh, 0.8vw);
+                font-family: night-devision;
+                padding: calc(45.5vh - min(9vh, 4.5vw)) 0vh;
+                mix-blend-mode: difference;
+                font-kerning: none;
             }
-                .read-me{
-                    display: grid;
-                    border: 0.3vh solid #fff;
-                    border-radius: 2.5vh;
-                    height: 5vh;
-                    margin: 3vh 0;
-                    align-items: center;
-                    mix-blend-mode: difference;
-                }
 
     </style>
 
@@ -42,9 +37,7 @@ templateCompLanding.innerHTML = `
         <div class="landing-video-wrapper"><!--fix for safari video position: fixed; bug-->
             <video id="landing-video" src="" autoplay muted loop playsinline poster="/static/content/bg/paper.webp"></video>
         </div>
-        <div class="look-here">
-            <div class="read-me">&nbsp&nbspWHATS&nbspDOWN&nbspHERE?&nbsp&nbsp</div>
-        </div>
+        <div id="text"></div>
     </div>
 `;
 
@@ -57,6 +50,7 @@ class CompLanding extends HTMLElement{
         /* Style */
         this.shadowRoot.getElementById('landing-video').poster = this.getAttribute("poster");
         this.shadowRoot.getElementById('landing-video').src = this.getAttribute("vid");
+        this.shadowRoot.getElementById('text').innerHTML = this.getAttribute("text");
     };
 };
 
