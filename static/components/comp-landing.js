@@ -3,8 +3,7 @@ templateCompLanding.innerHTML = `
     <style>
         .landing{
             width: 100%;
-            height: min-content;
-            min-height: 100vh;
+            height: 100vh;
         }
             .landing-video-wrapper{
                 width: 100%;
@@ -21,16 +20,19 @@ templateCompLanding.innerHTML = `
                     object-fit: cover;
                 }
             #text{
+                padding-top: 4.5vh;
+                height: 100%;
                 text-align: center;
                 font-size: min(20vh, 10vw);
                 line-height: min(18vh, 9vw);
                 letter-spacing: min(1.6vh, 0.8vw);
                 font-family: night-devision;
-                padding: calc(45.5vh - min(9vh, 4.5vw)) 0vh;
                 mix-blend-mode: difference;
                 font-kerning: none;
+                display: flex;
+                align-items: center;
+                justify-content: center;
             }
-
     </style>
 
     <div class="landing">
