@@ -38,11 +38,6 @@ templateCompHeader.innerHTML = `
                 margin: 2vh 0;
                 align-items: center;
             }
-        .head-spacer{
-            width: 100%;
-            height: 9vh;
-            background-color: #000;
-        }
     </style>
 
     <div class="header shadow">
@@ -64,7 +59,7 @@ templateCompHeader.innerHTML = `
             <div class="button"><div>&nbsp&nbspWHATS&nbspUP&nbsp&nbsp</div></div>
         </a>
     </div>
-    <div class="header-spacer"></div>
+
 `;
 
 class CompHeader extends HTMLElement{

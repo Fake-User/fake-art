@@ -19,27 +19,48 @@ templateCompLanding.innerHTML = `
                     height: 100%;
                     object-fit: cover;
                 }
-            #text{
-                padding-top: 4.5vh;
-                height: 100%;
-                text-align: center;
-                font-size: min(20vh, 10vw);
-                line-height: min(18vh, 9vw);
-                letter-spacing: min(1.6vh, 0.8vw);
-                font-family: night-devision;
+            #text-wrapper{
+                height: 100vh;
                 mix-blend-mode: difference;
                 font-kerning: none;
                 display: flex;
+                flex-flow: column;
                 align-items: center;
                 justify-content: center;
             }
+                #spacer{
+                    height: 9vh;
+                }
+                #text{
+                    text-align: center;
+                    font-size: min(20vh, 10vw);
+                    line-height: min(18vh, 9vw);
+                    letter-spacing: min(1.6vh, 0.8vw);
+                    font-family: night-devision;
+                    font-kerning: none;
+                }
+                #scroll-down{
+                    display: grid;
+                    width: min-content;
+                    color: #000;
+                    background-color: #fff;
+                    border-radius: 2.5vh;
+                    height: 5vh;
+                    margin: 2vh 0;
+                    align-items: center;
+                    justify-self: center;
+                }
     </style>
 
     <div class="landing">
         <div class="landing-video-wrapper"><!--fix for safari video position: fixed; bug-->
             <video id="landing-video" src="" autoplay muted loop playsinline poster="/static/content/bg/paper.webp"></video>
         </div>
-        <div id="text"></div>
+        <div id="text-wrapper">
+            <div id="spacer"></div>
+            <div id="text"></div>
+            <div id="scroll-down"><div>&nbsp&nbspSCROLL&nbspDOWN&nbsp&nbsp</div></div>
+        </div>
     </div>
 `;
 
