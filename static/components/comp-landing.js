@@ -59,7 +59,7 @@ templateCompLanding.innerHTML = `
         <div id="text-wrapper">
             <div id="spacer"></div>
             <div id="text"></div>
-            <div id="scroll-down"><div>&nbsp&nbspSCROLL&nbspDOWN&nbsp&nbsp</div></div>
+            <div onclick="scrollWin()" id="scroll-down"><div>&nbsp&nbspCLICK&nbspTO&nbspSCROLL&nbspDOWN&nbsp&nbsp</div></div>
         </div>
     </div>
 `;
@@ -74,7 +74,12 @@ class CompLanding extends HTMLElement{
         this.shadowRoot.getElementById('landing-video').poster = this.getAttribute("poster");
         this.shadowRoot.getElementById('landing-video').src = this.getAttribute("vid");
         this.shadowRoot.getElementById('text').innerHTML = this.getAttribute("text");
+
     };
 };
+        function scrollWin(x, y) {
+            window.scrollBy(x, (document.documentElement.clientHeight * 0.92));
+        };
+
 
 window.customElements.define("comp-landing", CompLanding);
