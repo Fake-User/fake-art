@@ -77,9 +77,9 @@ class CompLanding extends HTMLElement{
 
     };
 };
-        function scrollWin(x, y) {
-            window.scrollBy(x, (document.documentElement.clientHeight * 0.92));
-        };
 
+function scrollWin(x, y) {
+    window.scrollBy(x, (document.documentElement.clientHeight * 0.92));
+};
 
 window.customElements.define("comp-landing", CompLanding);
