@@ -30,7 +30,6 @@ h1{
     text-align: center;
     line-height: calc(4.1vh + 7vw);
 }
-
 .highlight:hover{
     filter: drop-shadow(0 0 1vh #fffa);
     animation-duration: 0s;
