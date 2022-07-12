@@ -17,7 +17,7 @@
     <comp-landing
         vid="/static/content/hollo/bh/hollo-bh-16x9.mp4"
         poster="/static/content/hollo/bh/hollo-bh-16x9.webp"
-        text="BROKEN HEART">
+        text="BROKEN<br>HEART">
     </comp-landing>
 
     <comp-aspect-grid
@@ -31,11 +31,11 @@
         <div>PROJECT INFO COMING SOON</div>
     </comp-project-info>
 
-    <comp-alt-grid
-        1="/static/content/hollo/bh/hollo-bh-1x1v1.webp"
-        2="/static/content/hollo/bh/hollo-bh-1x1v2.webp"
-        3="/static/content/hollo/bh/hollo-bh-1x1v3.webp">
-    </comp-alt-grid>
+    <comp-project-grid info="&nbsp&nbspCOLOR&nbspVARIENTS&nbsp&nbsp">
+        <comp-content img="/static/content/hollo/bh/hollo-bh-1x1v1.webp"></comp-content>
+        <comp-content img="/static/content/hollo/bh/hollo-bh-1x1v2.webp"></comp-content>
+        <comp-content img="/static/content/hollo/bh/hollo-bh-1x1v3.webp"></comp-content>
+    </comp-project-grid>
 
     <comp-project-vid
         vid="/static/content/hollo/bh/hollo-bh-1x1.mp4"
@@ -45,8 +45,9 @@
     <script src="/static/components/comp-header.js"></script>
     <script src="/static/components/comp-landing.js"></script>
     <script src="/static/components/comp-aspect-grid.js"></script>
-    <script src="/static/components/comp-alt-grid.js"></script>
     <script src="/static/components/comp-project-info.js"></script>
+    <script src="/static/components/comp-project-grid.js"></script>
+    <script src="/static/components/comp-content.js"></script>
     <script src="/static/components/comp-project-vid.js"></script>
 </body>
 </html>
