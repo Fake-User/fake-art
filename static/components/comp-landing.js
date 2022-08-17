@@ -10,7 +10,6 @@ templateCompLanding.innerHTML = `
                 height: 91vh;
                 position: fixed;
                 top: 9vh;
-                left: 0;
                 z-index:-10;
                 will-change: transform; /* Helps eliminate jank but cuases weird sizing jump */
             }
