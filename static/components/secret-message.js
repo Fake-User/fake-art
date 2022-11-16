@@ -43,9 +43,9 @@ templateSecretMessage.innerHTML = `
     ..........................................................................................................................
     ..........................................................................................................................
     -->
-    <!--What are you doing in inspector mode you crafty bastard?-->
-    <!--You seem pretty chill, hmu sometime.-->
-    <!--We should should put back some beers and go to a rave-->
+    <!--Oi, what you doing in inspector mode-->
+    <!--You seem pretty chill, hmu sometime-->
+    <!--Lets some have beers and go to a show-->
     <!--|---.. ----- ..--- ...-- ---.. ----- .---- -.... ...-- ..---|-->
 `;
 
